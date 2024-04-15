@@ -1,0 +1,21 @@
+name: APA-16 Radar Bombsight Control
+---
+last_updated: 2010-07-26
+---
+priority: 2.0
+---
+tags: bombsights
+---
+figures:
+
+1 | apa16 | APA16 Radar Bombsight
+2 | apa16_side | APA-16 Radar Bombsight
+3 | apa16_side_back | APA-16 Radar Bombsight
+4 | apa16_side_end | APA-16 Radar Bombsight
+---
+description:
+
+### APA-16 Radar Bombsight Control
+
+This appears to be the control console for an AN/APA-16 radar bombsight.
+It was used in the World War II era [PBY-6 patrol bomber](http://en.wikipedia.org/wiki/Consolidated_PBY_Catalina).

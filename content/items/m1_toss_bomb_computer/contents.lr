@@ -1,0 +1,30 @@
+name: M1 Toss Bomb Computer
+---
+last_updated: 2010-07-26
+---
+priority: 4.0
+---
+tags: bombsights
+---
+figures:
+
+1 | m1_control | M1 Toss Bomb Computer
+2 | m1_control_label-2 | M1 Toss Bomb Computer
+3 | m1_gyro_covered | M1 Toss Bomb Computer
+4 | m1_gyro_front | M1 Toss Bomb Computer
+5 | m1_gyro_back | M1 Toss Bomb Computer
+6 | m1_gyro_label | M1 Toss Bomb Computer
+7 | m1_gyro_patent | M1 Toss Bomb Computer
+---
+description:
+
+### M1 Toss Bomb Computer
+
+The M1 Toss Bomb Computer seems to have been used on the [Canberra B-57 bomber](http://en.wikipedia.org/wiki/Martin_B-57_Canberra),
+but I can find little documentation about it.
+We don't have the computer itself, but do have its cockpit control panel and its gyro.
+
+Interestingly, it seems to be the subject of a [patent suit](http://ftp.resource.org/courts.gov/c/F2/410/410.F2d.979.90.91.32293.32294_1.html)
+between the manufacturer of our devices (Mergenthaler) and SAAB.
+Figure 5 shows the first page of the Mergenthaler patent (filed 1961).
+It contains a good explanation of the physics of toss bombing and how the appropriate calculations could be done using 1960 technology.

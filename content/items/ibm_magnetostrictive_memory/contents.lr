@@ -1,0 +1,51 @@
+name: IBM Magnetostrictive Memory (from IBM 2848)
+---
+last_updated: 2010-07-26
+---
+priority: 7.0
+---
+tags: ibm
+---
+figures:
+
+1 | ibm_wire_memory | IBM Magnetostrictive Memory
+2 | ibm_wire_memory_cu | IBM Magnetostrictive Memory
+3 | ibm_wire_memory_cu2 | IBM Magnetostrictive Memory
+4 | ibm_wire_memory_cu3 | IBM Magnetostrictive Memory
+---
+description:
+
+### IBM Magnetostrictive Memory (from IBM 2848)
+
+Two general types of memory were used in computers before magnetic core memory was used:
+CRT or [Williams Tube](http://en.wikipedia.org/wiki/Williams_tube) memory,
+and  [Delay Line](http://en.wikipedia.org/wiki/Delay_line_memory) memory.
+We have an example of CRT memory in the [Components](/components/) section of the museum.
+Delay line memories differed in the type of delay medium,
+but all used the same general principle of representing bits as mechanical "waves" in some media, creating them at one end of a "wire"
+reading them as them arrive at the other end, and recirculating the data back to the start of the wire.
+The stored data thus consists of bits (as mechanical waves) flowing around and around a loop containing a medium for propagating the bits.
+The length of the loop and the frequency of the mechanical waves determine the storage capacity.
+
+Mercury tubes were first used for delay lines; for example the UNIVAC I used mercury delay lines.
+A major improvement over mercury tubes was [Magnetostrictive](http://www.technikum29.de/en/computer/storage-media.shtm) memory.
+The museum has a great example: it is the memory from an IBM 2848 control unit which fed video data to several
+[IBM 2260 Display](http://www.columbia.edu/acis/history/2260.html) stations,
+the first video display terminals that IBM made (shipped in the mid-1960's)
+
+[Magnetostriction](http://en.wikipedia.org/wiki/Magnetostriction) means that a material (a metal wire in our case) changes shape in the presence of a magnetic field.
+ In our case, the wire expands or contracts , thus creating a mechanical pulse that propagates along the wire.
+Our wire was made of a special nickel-titanium-iron allow that had the right properties for propagating the mechanical impulse along the wire.
+
+
+Figure 1 shows a memory module from the 2848 control unit.
+Each module held 11,520 bits, and there were up to four modules in a 2848 control unit, which could service eight 2260 terminals.
+A 2260 screen was 12 rows of 80 characters.
+Each character was represented by a six-bit code, so a 2260 needed 5,760 bits to refresh its display.
+
+The memory worked by generating "bit" waves using a magnetic transducer at one end of the storage wire.
+Figure 3 shows the transducer and start of the wire,
+and Figure 4 shows the end of the wire, the sensor, and a fine-tuning adjustment.
+Figure 2 shows a close-up of the wire coils of wire, as well as the circuit board which used discrete germanium transistors.
+The access time for this memory was about several hundred microseconds, the time for a wave to travel along the complete wire.
+Both ends of the wire are dampened to prevent feedback of reflected waves.

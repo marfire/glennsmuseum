@@ -1,0 +1,18 @@
+name: CPU-43A Air Data Computer
+---
+last_updated: 2010-07-26
+---
+priority: 1.5
+---
+tags: bombsights
+---
+figures:
+
+1 | cpu43a_full | 
+2 | cpu43a_side_2 | 
+3 | cpu43a_side_1 | 
+4 | cpu43a_cu | 
+---
+description:
+
+### CPU-43A Air Data Computer

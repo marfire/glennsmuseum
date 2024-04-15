@@ -1,0 +1,21 @@
+name: Mk18 Gunsight 
+---
+last_updated: 2010-07-26
+---
+priority: 1.5
+---
+tags: bombsights
+---
+figures:
+
+1 | mk18_gunsight | Mk18 Gunsight
+2 | mk18_gunsight_back | Mk18 Gunsight
+3 | mk18_gunsight_accs | Mk18 Gunsight
+4 | mk18_gunsight_label | Mk18 Gunsight
+5 | mk18_gunsight_accs_2 | Mk18 Gunsight
+---
+description:
+
+### Mk18 Gunsight 
+
+This is a fairly common WWII-era gyro gunsight used by the US Navy.

@@ -1,0 +1,19 @@
+name: Mk23 Bombsight
+---
+last_updated: 2010-07-26
+---
+priority: 1.5
+---
+tags: bombsights
+---
+figures:
+
+1 | mk23_bombsight | Mk23 Bombsight
+2 | mk23_bombsight_rear | Mk23 Bombsight
+---
+description:
+
+### Mk23 Bombsight
+
+This is the sighting component of the Mk23 bombsight.
+I know little about this device other than I think it was used on the [P2V Neptune](http://en.wikipedia.org/wiki/Lockheed_P-2_Neptune) antisubmarine plane.

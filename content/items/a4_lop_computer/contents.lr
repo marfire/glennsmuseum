@@ -1,0 +1,69 @@
+name: Fairchild A-4 (MX-10) Line-of-Position Computer
+---
+last_updated: 2011-11-27
+---
+priority: 7.0
+---
+tags: bombsights
+---
+figures:
+
+1 | fairchild_a4_front | Fairchild A-4 (MX-10) Line-of-Position Computer
+2 | fairchild_a4_case | Fairchild A-4 (MX-10) Line-of-Position Computer
+3 | fairchild_a4_front_rt | Fairchild A-4 (MX-10) Line-of-Position Computer
+4 | fairchild_a4_front_lf | Fairchild A-4 (MX-10) Line-of-Position Computer
+5 | fairchild_a4_front_date | Fairchild A-4 (MX-10) Line-of-Position Computer
+6 | fairchild_a4_bottom | Fairchild A-4 (MX-10) Line-of-Position Computer
+7 | fairchild_a4_bottom2 | Fairchild A-4 (MX-10) Line-of-Position Computer
+8 | fairchild_a4_side1 | Fairchild A-4 (MX-10) Line-of-Position Computer
+9 | fairchild_a4_side2 | Fairchild A-4 (MX-10) Line-of-Position Computer
+10 | fairchild_a4_gear_cu | Fairchild A-4 (MX-10) Line-of-Position Computer
+11 | fairchild_a4_lbl | Fairchild A-4 (MX-10) Line-of-Position Computer
+12 | tm1_206_cover | Fairchild A-4 (MX-10) Line-of-Position Computer
+13 | tm1_206_pgs | Fairchild A-4 (MX-10) Line-of-Position Computer
+---
+description:
+
+### Fairchild A-4 (MX-10) Line-of-Position Computer
+
+This wonderful device is a self-contained mechanical computer from the late 1930's that calculates a type of
+[celestial navigation](http://en.wikipedia.org/wiki/Celestial_navigation)
+called ["line of position"](http://www.math.ubc.ca/~cass/courses/m308-02b/projects/jackson/Page3.html).
+(If you're not fluent in celestial navigation, it more complicated than one might think.
+If you want to know more, there are many of good references on the web and
+[here](http://www.celnav.de/astro.zip) is a free book I recommend.)
+Another great reference is Technical Manual TM1-206, 1941 (Figure 12)
+which includes a description of how to use the A-4 computer (Figure 13).
+
+A very simplified description of line-of-position navigation is that given the time of day
+and sighting data (from a sextant) of the sun or another celestial body like a star,
+and by using precomputed tables, you can calculate the coordinates of a line on the surface of the earth,
+upon which you must be.
+Two such sightings and calculations produce two lines, whose intersection is where you are.
+(Technically, these "lines" are not lines but are "circles of equal altitude" which intersect at two positions,
+but in practice the position is not ambiguous.)
+The line of position approach was discovered in 1837 by [Thomas Sumner](http://en.wikipedia.org/wiki/Thomas_Hubbard_Sumner)
+(his original publication describing the method is
+[here](https://www.google.com/search?tbo=p&tbm=bks&q=inauthor:%22CAPT.+THOMAS+II.+SUMNER%22))
+
+Although celestial navigation from a ship and an airplane are conceptually similar,
+there are important differences, among these are the fact that
+airplanes lack a stable horizon, experience high acceleration, and rapidly change their position.
+This means that it is important to be able to make position estimates accurately and rapidly.
+Before the A-4 computer, the line of position calculations required solving several trigonometric formulas
+using data from massive [celestial almanacs](http://en.wikipedia.org/wiki/Nautical_almanac).
+These calculations were done by hand or using specialized slide rules.
+The A-4 performs these calculations with greater precision than slide rules,
+and most conveniently, has the almanac values for the sun built into it,
+thus eliminating almanac lookup in many cases.
+
+As can be seen in Figures 6-10, the computation mechanisms are completely mechanical and are quite complicated.
+
+The astronomical almanac data for the sun is machined into a replaceable module that covers a particular quarter of a year.
+Our data is for fourth quarter, 1938 (Figure 5).
+The replaceable unit is the shiny mechanism in Figure 9.
+Close examination show part of a large gear with a track cut in it.
+This is the data.
+
+An interesting historical note: the Fairchild A-4 was used by Howard Hughes of his
+[flight around the world](http://tinyurl.com/7855chq) in 1938.

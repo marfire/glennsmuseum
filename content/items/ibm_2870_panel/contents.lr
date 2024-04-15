@@ -1,0 +1,28 @@
+name: IBM 2870 Control Panel
+---
+last_updated: 2010-07-26
+---
+priority: 3.0
+---
+tags: ibm
+---
+figures:
+
+1 | 2870_real | IBM 2870 Control Panel
+2 | 2870_panel_pg | IBM 2870 Control Panel
+---
+description:
+
+### IBM 2870 Control Panel
+
+As mentioned elsewhere, the IBM System/360 family had a new and powerful type of I/O attachment:
+the [IBM channel](http://en.wikipedia.org/wiki/Channel_I/O).
+The channel comprised a programmable I/O controller and standard physical attachments to a wide variety of I/O devices.
+There were two basic type of channel controllers: A selector channel, and a multiplexor channel.
+
+The IBM 2870 was the multiplexor control unit for the System/360 family.
+Figure 1 is the control panel from an 2870 controller.
+(The wooden frame is an add-on for displaying the panel.)
+Figure 2 is a page from the 2870 manual showing this control panel.
+Careful study of the control and status indicators shows that the 2870 was
+effectively a programmable computer.

@@ -1,0 +1,19 @@
+name: AN/AVN-1 Celestial Positioning Tracker
+---
+last_updated: 2010-07-26
+---
+priority: 2.5
+---
+tags: bombsights
+---
+figures:
+
+1 | celestial_tracker_back | 
+2 | celestial_tracker_full | 
+3 | celestial_tracker_nose | 
+4 | celestial_tracker_top | 
+5 | celestial_tracker_side | 
+---
+description:
+
+### AN/AVN-1 Celestial Positioning Tracker

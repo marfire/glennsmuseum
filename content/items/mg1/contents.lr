@@ -1,0 +1,30 @@
+name: MG-1 Mechanical Central Air Data Computer
+---
+last_updated: 2011-11-27
+---
+priority: 5.0
+---
+tags: bombsights
+---
+figures:
+
+1 | central_adc_new_full | 
+2 | central_adc_new_back | 
+3 | mech_adc_full | 
+4 | mech_adc_base | 
+5 | mech_adc_cu1 | 
+6 | mech_adc_cu2 | 
+---
+description:
+
+### MG-1 Mechanical Central Air Data Computer
+
+This is a Bendix MG-1 Air Data Computer.
+It was first used in the [F-86 Sabre](http://en.wikipedia.org/wiki/North_American_F-86_Sabre) jet fighter.
+The F-86 was effectively the first U.S. jet fighter, first deployed in 1949.
+
+I actually have two (slightly different versions) of the MG-1.
+Figures 1 and 2 show a complete unit.
+Figures 3-6 show a second unit where I have cut the sealed container to expose the wonderful innards.
+Inside is a mixture of mechanical pressure sensors (the two cylinders at the top of Figure 3),
+many mechanical calculating mechanisms, and a number of electrical sensors.

@@ -1,0 +1,57 @@
+_model: category
+---
+name: IBM Stuff
+---
+tag: ibm
+---
+description:
+
+## Sidebar: My Personal History With IBM
+
+I have a special interest in IBM equipment since I was an application programmer on early IBM computers (1963-1965)
+and I worked at IBM for 21 years (1967-1988) having a very rewarding career.
+In the early 1960's I programmed applications in Fortran and assembly language for an [IBM 7090](http://en.wikipedia.org/wiki/IBM_7090)
+(along with some programming for an [IBM 1401](http://en.wikipedia.org/wiki/IBM_1401)).
+Then, in college I did extensive assembly programming on an [IBM 1620](http://en.wikipedia.org/wiki/IBM_1620).
+After getting a Master's degree, I started with IBM in 1967 (in San Jose) as a programmer on the [IBM 1130](http://en.wikipedia.org/wiki/IBM_1130)
+and the [IBM 1800](http://en.wikipedia.org/wiki/IBM_1800_Data_Acquisition_and_Control_System) operating systems
+(these were a low-end scientific computer and a specialized process-control computer).
+I also worked on the initial definition of the 1800 follow-on: the [IBM System/7](http://en.wikipedia.org/wiki/IBM_System/7).
+
+Moving to Boca Raton, I became a manager of the BASIC operating system for the
+[IBM System/3 Model 6](http://ed-thelen.org/comp-hist/IBM-ProdAnn/sys3m6.pdf).
+This little-known product was actually IBM's first "personal computer", albeit a little large: it was a desk with a keyboard, CRT monitor,
+removable disk and an attached printer. Its operating system was essentially a BASIC language interpreter.
+
+Excitingly, the museum now has a (almost working) and complete System/3 Model 6. [Check it out](/items/s3m6/).
+
+I then became the architecture for a proposed low-end [System/360](http://en.wikipedia.org/wiki/IBM_System/360) computer,
+which morphed (along with my moving to Rochester, MN) into a business-oriented single-user computer: the
+[IBM System/32](http://www-03.ibm.com/ibm/history/exhibits/rochester/rochester_4017.html).
+I managed the development of the system software for the System/32.
+
+After the System/32, I started the initial architecture design for the [IBM System/38](http://en.wikipedia.org/wiki/IBM_System/38) family.
+The ["second-system effect"](http://en.wikipedia.org/wiki/Second-system_effect) was clearly at work here;
+we decided to advance the state-of-the-art in many areas (and we did, although it took longer than we planned). In particular, innovations in the System/38 were:
+
+- 48-bit hardware addressing
+- ...used to implement a [single-level store](http://en.wikipedia.org/wiki/Single-level_store)
+- ...with [capability-based addressing](http://en.wikipedia.org/wiki/Capability-based_addressing) (one extra bit in every memory word was a hidden protection bit)
+- A high-level machine instruction set; significant operating system functions were provided by "microcode" as machine instructions
+- ... including a relational data base functions built into the "hardware"
+
+The System/38 project ended up taking seven years; I ended up managing all the system software for the System/38: microcode, operating system, compilers, and miscellaneous utilities.
+
+Next, moving to Austin, I started several advanced technology projects, one of which morphed into the
+[IBM RT](http://en.wikipedia.org/wiki/IBM_6150_RT) product (sometimes called the RT/PC).
+I ended up managing both the hardware and operating systems development for the RT. 
+The RT was the first IBM product to use a [RISC processor](http://en.wikipedia.org/wiki/Reduced_instruction_set_computing)
+(the [ROMP processor](http://en.wikipedia.org/wiki/ROMP)
+and a [UNIX](http://en.wikipedia.org/wiki/Unix) based operating system
+([IBM AIX](http://en.wikipedia.org/wiki/IBM_AIX)).
+I also managed a project to define an IBM-wide AIX strategy.
+
+At this point I was made an IBM Fellow and henceforth worked on my Fellow projects,
+the last of which was a processor that would merge the Intel x86 instruction set architecture with the IBM Power architecture.
+While this "L86" project ("last x86") never became a product, there are tendrils of its philosophy still embedded in my current company's x86 processors.
+There is even a few external references to the L86 in books, here's [one](http://tinyurl.com/2ajybeo).

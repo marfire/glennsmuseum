@@ -1,0 +1,19 @@
+name: EPR153 Dual Processor (Air Force)
+---
+last_updated: 2010-07-26
+---
+priority: 2.0
+---
+tags: latermil
+---
+figures:
+
+1 | epr153 | 
+2 | epr153_cu | 
+3 | epr153_cpu | 
+4 | epr153_bd | 
+---
+description:
+
+### EPR153 Dual Processor (Air Force)
+

@@ -1,0 +1,24 @@
+name: Univac Plated-Wire Memory Card
+---
+last_updated: 2010-07-26
+---
+priority: 4.0
+---
+tags: components
+---
+figures:
+
+1 | univac_plated_wire_a | 
+2 | univac_plated_wire_b | 
+---
+description:
+
+### Univac Plated-Wire Memory Card
+
+This large memory card is the [plated-wire memory](http://en.wikipedia.org/wiki/Plated_wire_memory)
+used in Univac 9000 series computers and the Univac 1110 in the late 1960's and early 1970's.
+Iron-Nickel coated wires store the magnetic field vs. ferrite cores used core memory.
+Plated-wire memory was easier and cheaper to produce and
+it also has a non-destructive read.
+This particular plane measures about 8 x 18.5 inches and has arrays on each side.
+Each side is covered with a fiber shield.

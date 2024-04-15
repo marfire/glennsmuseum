@@ -1,0 +1,45 @@
+name: AN/ASQ-155 Ballistic Computer (A-6 Intruder)
+---
+last_updated: 2010-07-26
+---
+priority: 6.5
+---
+tags: latermil
+---
+figures:
+
+1 | asq_155_full | 
+2 | a6_cockpit_flgd | 
+3 | asq_155_cu | 
+4 | asq_155_handle | 
+5 | asq_cpu | 
+6 | asq_bds | 
+7 | asq_155_lbl | 
+8 | asq61_pic | 
+9 | a6_pg1 | 
+10 | a6_ctrl_stick_pg | 
+---
+description:
+
+### AN/ASQ-155 Ballistic Computer (A-6 Intruder)
+
+The [AN/ASQ-155](http://www.designation-systems.net/usmilav/jetds/an-asq.html) is a ballistics computer used in the Grumman
+[A-6E Intruder fighter-bomber](http://en.wikipedia.org/wiki/A-6_Intruder).
+The A-6 carried a crew of two, a pilot and, to his right, a bombardier-navigator who operated the navigation, radar, and ballistics systems.
+There are two major components of the ASQ-155.
+The control pedestal sits in between the legs of the navigator/bombardier as highlighted in the cockpit picture of the A-6.
+The computer unit lives in the base on the pedestal; our pictures have pulled it out of the base and include a closeup of some of the computer logic boards.
+
+Several references state that the computing component is a version of the [IBM System/4 Pi](http://en.wikipedia.org/wiki/IBM_System/4_Pi) computer family.
+For example, US Patent [4057800](http://www.freepatentsonline.com/4057800.html) describes the basic approach for bomb targeting based on pulsed radar inputs
+and includes the statement "A particular computer could be one identified by the Department of Defense as ASQ-155 and typified by the IBM 4 Pi computer."
+
+However, I don't believe that my unit contains an IBM 4Pi computer since the logic is almost entirely composed of Texas Instruments chips;
+I believe IBM would have used its own chips.
+Furthering the confusion is a picture of an earlier A-6 ballistic computer,
+the [AN/ASQ-61](http://www.designation-systems.net/usmilav/jetds/an-asq.html), which externally looks just like our device
+(this is seen at the top of the fuzzy page to the right)
+The ASQ-61 is listed as manufactured by Litton, which seems consistent with use of TI devices. Yet our device is clearly labeled as an ASQ-155.
+
+We have a lot of detail about the operation of the ASQ-155 since we have the A-6E flight manual that includes coverage of the ASQ-155.
+The sample page here shows the functions of the control stick. The detailed description in this document confirms that our device is really a ASQ-155.

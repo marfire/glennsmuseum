@@ -1,0 +1,29 @@
+name: IBM 557 Alphabetic Interpreter
+---
+last_updated: 2010-07-26
+---
+priority: 4.0
+---
+tags: ibm
+---
+figures:
+
+1 | ibm_577 | IBM 557 Alphabetic Interpreter
+2 | ibm_557_inside | IBM 557 Alphabetic Interpreter
+---
+description:
+
+### IBM 557 Alphabetic Interpreter
+
+Figure 1 shows our [IBM 557 Alphabetic Interpreter](http://en.wikipedia.org/wiki/IBM_557).
+It is essentially a card printer.
+The information to be printed, however, comes from the same card that is being printed,
+and the plugboard control can perform reformatting of the data to be printed.
+This process requires a lot of complicated machinery.
+Figure 2 shows part of the card path mechanics.
+Card are read at the top and part of the 60 individual print bars is seen at the very bottom.
+The 557 was first introduced in 1954 and is the next-to-last of a line of IBM card interpreters.
+
+An example application of the 557 is printing payroll checks on card stock.
+Another of IBM's card machines (or even a computer) would punch the information on cards,
+which would then be run through a 557 to print the readable information such as recipient and amount.

@@ -1,0 +1,25 @@
+name: AN/ASN-30 Antisubmarine Tracking Computer
+---
+last_updated: 2010-07-26
+---
+priority: 4.0
+---
+tags: bombsights
+---
+figures:
+
+1 | asn30_front | AN/ASN-30 Antisubmarine Tracking Computer
+2 | asn30_side1 | AN/ASN-30 Antisubmarine Tracking Computer
+3 | asn30_side2 | AN/ASN-30 Antisubmarine Tracking Computer
+4 | asn30_cu1 | AN/ASN-30 Antisubmarine Tracking Computer
+5 | asn30_cu2 | AN/ASN-30 Antisubmarine Tracking Computer
+---
+description:
+
+### AN/ASN-30 Antisubmarine Tracking Computer
+
+This is the CP-63 analog computer component of the AN/ASN-30 Anti-Submarine Tactical Navigation System (ASWTNS).
+It was used on an Grumman S-2 Tracker ASW (Anti-Submarine Warfare) aircraft, which entered service in the 1952 as a carrier-based plane.
+The ASWTNS was an electro-mechanical navigational and tactical computer and display system designed to solve
+ASW plotting, display and tactical co-ordination problems.
+It utilized both automatic and manual inputs to compute and display solutions to both navigation and tactical ASW actions.

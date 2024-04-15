@@ -1,0 +1,38 @@
+name: Comdyna GP-6 & GP-10
+---
+last_updated: 2010-07-26
+---
+priority: 6.5
+---
+tags: analog
+---
+figures:
+
+1 | comdyna | Comdyna GP-6
+2 | comdyna_stack_front | Comdyna GP-6
+3 | comdyna_stack_back | Comdyna GP-6
+4 | comdyna_stack_back_cu | Comdyna GP-6
+---
+description:
+
+### Comdyna GP-6 & GP-10
+
+While the [Systron-Donner Series 80](/items/sd_80/) is the oldest and rarest analog computer, this is the most modern and most available.
+The [Comdyna GP-6](http://www.comdyna.com/gp6intro.htm),
+shown in Figure 1, is a relatively small and inexpensive computer that can usually be found on ebay.
+It was manufactured from 1968 to 2004.
+The [Comdyna GP-10](http://www.comdyna.com/music.htm)
+is a very similar device, but optimized for analog signal processing applications.
+Figures 2-4 show our four GP-10s in a special case where they share power supply and control.
+This type of system is often used in synthesized music applications.
+ 
+These computers are fairly limited in capacity, but are perfect for classrom and breadboarding applications.
+I have my GP-6 set up to solve the differential equation
+   
+ x'' = -x
+
+The solution, of course, is a sine wave.
+(Since sin(x)' = cos(x), and cos(x)' = -sin(x)).
+
+Unsuspecting engineers passing the museum are often dragged in for a demonstration of the principles
+of analog computing using this example on our working GP-6.

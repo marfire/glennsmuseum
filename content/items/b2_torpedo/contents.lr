@@ -1,0 +1,22 @@
+name: B-2 Torpedo Director (Douglas A-20)
+---
+last_updated: 2010-07-26
+---
+priority: 3.5
+---
+tags: bombsights
+---
+figures:
+
+1 | torpedo_director | 
+2 | torpedo_director_US2384036_page1 | 
+---
+description:
+
+### B-2 Torpedo Director (Douglas A-20)
+
+This is a "torpedo director" used on the WW II [Douglas A-20 bomber](http://en.wikipedia.org/wiki/A-20_Havoc).
+According to the *Douglas A-20 Havoc Pilot's Operating Instructions* (which we have), a torpedo director "is an instrument operated by the pilot
+to help him approach a moving target in such a manner that the torpedo will intercept the target on its course."
+The computation mechanism of the B-2 is simple, but it does compute in a way.
+On the right is the first page from the 1945 [patent](/reference/torpedo_director_US2384036.pdf) for the B-2, which describes the operation of the B-2.

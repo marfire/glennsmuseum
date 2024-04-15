@@ -1,0 +1,20 @@
+name: B-36 Gun Control Panel
+---
+last_updated: 2010-07-26
+---
+priority: 2.0
+---
+tags: bombsights
+---
+figures:
+
+1 | b36_gun_panel | 
+2 | b-47_cockpit_gun_panel | 
+---
+description:
+
+### B-36 Gun Control Panel
+
+This is the control panel for the nose gun of a B-36.
+It is similar, but slightly different to a control panel for the tail gun on a B-47.
+Figure 2 shows the B-47 panel in a B-47.

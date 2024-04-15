@@ -1,0 +1,89 @@
+name: IBM 705 Console & Components
+---
+last_updated: 2012-12-19
+---
+priority: 8.0
+---
+tags: ibm
+---
+figures:
+
+1 | ibm705_full | IBM 705 Console
+2 | ibm705_middle_cu | IBM 705 Console
+3 | ibm705_left | IBM 705 Console
+4 | ibm705_left_cu | IBM 705 Console
+6 | 705_tube_module | IBM 705 Tube Modules
+7 | mainframe_tree | IBM 705 Console
+8 | 701_ad | IBM 705 Tube Modules
+9 | 705_tube_module_many | IBM 705 Tube Modules
+10 | 705_manuals | IBM 705 Manuals
+11 | ibm_single_tube_modules | IBM Tube Modules
+12 | 705_fe_manual | IBM 705 Manuals
+13 | 777_schematics | IBM 777 Schematics
+14 | ibm_767_ref | IBM 767 Data Synchronizer
+15 | ibm_767_main | IBM 767 Data Synchronizer
+16 | ibm_767_connector | IBM 767 Data Synchronizer
+17 | ibm_767_cu | IBM 767 Data Synchronizer
+18 | ibm_7xx_panel2 | IBM Control Panel
+19 | ibm_7xx_panel1 | IBM Control Panel
+20 | ibm_7xx_panel2_lights | IBM Control Panel
+21 | ibm_7xx_panel2_switches | IBM Control Panel
+---
+description:
+
+### IBM 705 Console & Components
+
+The museum has a control console from a [IBM 705 computer](http://www-03.ibm.com/ibm/history/exhibits/mainframe/mainframe_PP705.html).
+I believe this to be very rare item since the 705 was first shipped in late 1954 and was withdrawn in early 1960.
+That's a long time ago and there can't have been many shipped during that short period
+(but I haven't found credible numbers for the total shipped).
+Also, the 705 was quite expensive: about $590,000 in 1954 dollars.
+
+(Note that on our console the original IBM 705 banner has been replaced with a customer's banner ("Confederation Life").
+Since computers were so rare in the 1950's they were usually proudly displayed in a "glass house" by their users,
+often with the user's name on them.)
+ 
+The IBM 705 architecture was heavily optimized for business applications
+such as billing, payroll, accounts receivable, and inventory control,
+as opposed to computationally intensive applications.
+In early computers, hardware was so expensive and limited in capability that the each computer
+was specifically designed for certain types of applications,
+with a common differentiator being character handling vs. arithmetic computation.
+In the 1950's IBM introduced several 700-series computer starting with the pioneering IBM 701.
+The IBM 702, IBM 705 were optimized for business applications,
+while the IBM 704 and IBM 709 were optimized for engineering and scientific applications.
+Shown on the left is a pre-System/360 "family tree" drawing from IBM of its early computers which illustrates the various model and their introduction dates.
+This application optimization continued through later transistorized descendants of these 1950-era computers (such as the IBM 7080 which was the follow-on to the 705)
+until the introduction in 1964 of the IBM System/360 family, which had a "general purpose" architecture.
+Even after that, low-end IBM computers such as the IBM 1130,
+[System/3](http://en.wikipedia.org/wiki/IBM_System/3), System/32, and System/38
+were optimized for specific applications.
+And, process-control applications were addressed by the specialized IBM 1800, IBM System/7,
+and [IBM Series/1](http://en.wikipedia.org/wiki/IBM_Series/1) families.
+ 
+The IBM 705 used vacuum tubes (about 1,700 of them) for its logic and used magnetic core memory for storage.
+Its instruction-set architecture was heavily optimized for business applications.
+Of special note is the fact that memory was organized into 7-bit "characters"
+and the two accumulators (corresponding to current processor registers) each contained 256 characters.
+The memory size was either 20,000 or 40,000 characters.
+A load from memory into the accumulator took about 17 microseconds.
+The main input and output was magnetic tape (5M characters per reel), but a card reader and punch as well as a printer could be directly attached.
+
+In addition to the control console, we also have some electronic components and original documentaion (some probably rare) for the IBM 705.
+We have several of the pluggable processor logic elements as shown on both sides along with an ad for the IBM 701 showing the same type of pluggable unit.
+Also shown is our stack of more than 25 original IBM documents about the 705 including the introductory volume
+of the Customer Engineer (CE) internal documentation. This document describes the details of the logic elements and memory components.
+
+**New arrivals 12/2012**
+
+One of the most important peripheral I/O devices in a IBM 705 system was the IBM 767 Data Synchronizer.
+Figure 14 show a picture of the 767 from the IBM 705 Reference manual.
+The Data Synchronizer was the forerunner of what later became IBM's System/360 "Data Channels".
+It attached up to 10 IBM 729 tape Drives and allowed overlapping reads and writes across these devices to and from the main memory of the IBM 705.
+In today's terms it was a "multiplexed buffered DMA (Direct Memory Access) controller".
+
+The museum contains a IBM 767 control panel, as shown in Figures 15, 16, and 17.
+Note that the front panel has a large bus connector on it.
+
+Figures 18 through 21 show two other control panels that I am sure come from pre-System/360 IBM equipment,
+but I have not been able to identify them yet.

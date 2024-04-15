@@ -1,0 +1,67 @@
+name: IBM MCM Technology
+---
+last_updated: 2010-07-26
+---
+priority: 6.0
+---
+tags: ibm
+---
+figures:
+
+1 | ibm_mcm1_cover | IBM MCM
+2 | ibm_mcm1_back | IBM MCM
+3 | ibm_mcm1_chips | IBM MCM
+4 | ibm_mcm1_side | IBM MCM
+5 | ibm_mcm2_front | IBM MCM
+6 | ibm_mcm2_back | IBM MCM
+7 | ibm_mcm2_lbl | IBM MCM
+8 | ibm_z9_front | IBM MCM
+9 | ibm_z9_side | IBM MCM
+10 | ibm_z9_back | IBM MCM
+---
+description:
+
+### IBM MCM Technology
+
+In its heyday of computer design, IBM not only had great electronic technology but their packaging was unbelievably good.
+Here are some examples in the museum.
+
+#### IBM Thermal Conduction Module (TCM)
+
+Figures 1-5 shows the IBM TCM used in the 3081 computers, circa 1981.
+It is six inches square and weighs about 5 lbs.
+The outside of the cover is shown in Figure 4.
+The reverse side of the cover is Figure 1 which contains an 11x11 array of spring-loaded copper slugs.
+Figure 5 shows a side view of the cover and slugs (I have lost some of the springs so some of our slugs don't pop-up).
+When the cover is mounted on the bottom assembly, 
+the copper slugs each press one one of 11x11 flip-chip mounted gate-array TTL chips, each containing about 704 circuits.
+The chips are mounted on a thick ceramic substrate containing 33 wiring levels. 
+The back side of the ceramic, shown in Figure 2, contains 1800 I/O pins.
+
+The area above the copper slugs in the cap was filled with helium to help conduct heat to the cover.
+The cover was attached to a water cooled plate. 
+
+#### IBM 3745 Thermal Conduction Module (TCM)
+
+
+#### IBM Z9 MCM
+
+Okay, so this is not exactly an old item: it was shipped in 2006.
+It does, however, show another instance of IBM's great technology capability,
+so since I'm covering older technology I thought it belonged—it's just so cool!
+
+This is a processor module from the IBM Z9 mainframe/super server.
+There are 8 processor chips, each containing 2 cores, each with 256KB of L1 cache, along with 4 L2 cache chips comprising 40MB,
+plus controllers for cache, memory, and I/O.
+About 4.5 billion transistors altogether with a very impressive package.
+
+The ceramic package has 102 internal wiring planes, 5,184 total pins including 2,970 signal pins.
+It dissapates 1200 Watts of heat and is normally water cooled,
+but there is a air-controlled backup where the clock speed is reduced.
+
+The Z9 chips are implemented in IBM 90nm technology. 
+Interestingly, we used that same technology for a processor design we did in the mid 2000's.
+Our tiny chip (about 30M transistors) could run at 2.0 GHz. 
+The Z9 processor chips run at 1.7GHz.
+This is a tremendous achievement considering how much larger the Z9 is than our processor
+(150x spread across 16 chips!).

@@ -1,0 +1,54 @@
+name: B-29 Central Fire Control Computer 
+---
+last_updated: 2010-07-26
+---
+priority: 6.5
+---
+tags: bombsights
+---
+figures:
+
+1 | b29_cfcs | 
+2 | b29_cfcs_cu | 
+3 | b29_cfcs_systemcontrol | 
+4 | b29_cfcs_schematic | 
+5 | b29_cfcs_cu2 | 
+6 | b29_cfcs_label | 
+7 | b29_cfcs_cu4 | 
+8 | b29_csfc_tester_cu | 
+9 | b29_cfcs_cu4 | 
+10 | b29_csfc_tester_lbl | 
+11 | b29_csfc_tester | 
+---
+description:
+
+### B-29 Central Fire Control Computer 
+
+The famous [B-29 bomber](http://en.wikipedia.org/wiki/B-29) was a critical factor in ending World War II.
+It incorporated many technical innovations including a [Central Station Fire Control System](http://www.twinbeech.com/CFCsystem.htm) (CSFC) for its five gun turrets.
+Prior to the B-29, gun turrets in bomber such as the B-17 and B-24 contained a gunner responsible
+for aiming and firing the guns in the particular turret.
+The B-29, however, had four unmanned turrets (the tail gun was still manned)
+that could be (as shown in the left diagram) controlled from several remote locations: a central sighting station near the tail,
+a nose gunner station and the tail gunner.
+The advantages of the CSFC were several: smaller gun turrets (less drag), improved sighting accuracy, easier maintenance, redundancy if a sighting station is incapacitated,
+improved comfort for the gunners, and so forth.
+
+The CSFC comprised many components (e.g., servo amplifiers, motor generators, sighting heads, the gun turrets themselves),
+but the critical component was the computer itself, which we have.
+There was one computer for each of the five sighting stations. Based on information from the sighting station
+along with the plane's altitude, air-speed, and temperature,
+the computer calculated the proper aiming of the turret considering ballistic factors (wind and gravity), parallax (offset between gun and sighting head)
+and the appropriate lead to the target based on range and relative velocity of the target.
+
+Shown here are:
+
+- An overall view of the computer with its lid removed. Note the 3/8" thick steel case; this device wighs over 50 lbs.
+- A diagram from the *Bombardier's Information Manual* showing the turrets and the sighting stations.
+- Two closeups of the computing elements. (Note that one shows several types of computing components: gears, relays, and tubes. Also note the preservation grease; our computer seems to be brand new.)
+- A sample schematic from The CSFC *Handbook of Operations and Service Instructions*.
+This is a six hundred page manual we have that covers great detail about all of the CSFC components.
+- Figure 6 shows the computer was actually manufactured by IBM
+
+We also have the tester for this computer.
+Figures 9, 10, and 11 show the tester.

@@ -1,0 +1,104 @@
+name: IBM System/360 Read-Only Storage (ROS)
+---
+last_updated: 2011-12-10
+---
+priority: 8.5
+---
+tags: ibm
+---
+figures:
+
+1 | capacitor_ros | IBM Capacitor ROS
+2 | capacitor_ros_cu | IBM Capacitor ROS
+3 | tros | IBM Transformer ROS
+4 | tros_cu | IBM Transformer ROS
+5 | tros_cu2 | IBM Transformer ROS
+6 | tros_sense | IBM Transformer ROS
+7 | tros_sense_2 | IBM Transformer ROS
+8 | changing_tros | IBM Transformer ROS
+9 | changing_ccros | IBM Capacitor ROS
+10 | ibm_bcros_full | IBM Balanced Capacitor ROS
+11 | ibm_bcros_cu | IBM Balanced Capacitor ROS
+---
+description:
+
+### IBM System/360 Read-Only Storage (ROS)
+
+Extensive [microcode](http://en.wikipedia.org/wiki/Microcode) allowed the System/360 to provide a compatible
+instruction architecture and compatible I/O across many models having significantly different performance.
+Among the original offerings, the Model 30, 40 and 50 all had hardware significantly less powerful than the System/360 instruction
+architecture and implemented the instructions via microcode.
+
+The microcode was contained in a [control store](http://en.wikipedia.org/wiki/Control_store)
+implemented as read-only storage, or ROS
+(this is IBM's term, today we call it read-only memory, or ROM).
+Then, as today, ROS is implemented as a two-dimensional array of word-lines, which select the output for a particular address,
+and the orthogonal bit lines which are the outputs.
+Since only one word line is active at a time, the output for each bit of selected the ROS word can be defined
+by either no connection at the intersection of the word-line and bit-line, or by connecting the word line to the bit line through a diode.
+That is, when a bit-line is asserted, the output of the ROS is defined by the connects or no connects to the bit lines for that particular address.
+The difference among the many implementations of ROM are primarily in the choice of this connection mechanism.
+Different types of "diodes" affect the speed, size, and ability to change the ROS.
+
+All except the high-end model of the original introduction used microcode to implement the System/360 architecture.
+Three different types of ROS were used: Card Capacitor ROS, Transformer ROS, Balanced Capacitor ROS.
+We have samples of all three of the types.
+Figure 1 shows a storage card of the Model 30's Card Capacitor ROS.
+The storage card looks like an IBM punched card except it is made of Mylar and has metal lines etched on it.
+(Much more about this ROS design can be found in J.W.Haskell,Design of a Printed Card Capacitor Read-Only Store, IBM Journal, March 1966.)
+Figure 2 is a closeup of the card.
+
+Each card has 12 word lines corresponding to the 12 rows on a standard punched card.
+The contacts for the word lines are on the right in the picture.
+Each word line attaches to 60 bit "pads" (again corresponding directly to the punch positions in a standard IBM card).
+The metal pad can be eliminated by punching that position with a standard card punch.
+Thus, bits in the microcode word for each word line are defined by the metal pad being present or absent.
+
+The ROS cards are placed in a frame where bit lines run vertically aligned with each of the 60 column.
+A thin sheet of Mylar goes between the card and the bit lines to form the capacitive coupling
+between the metal pad and the word line.
+The cards are mounted on a 20x12" board with four cards on each side.
+The mechanics of the boards (ground planes, pressure on the card, insulator thickness, etc.) are such that the coupling ratio between
+a punched and unpunched pad is at least 10:1.
+The boards are assembled into a module to form the complete ROS.
+The Model 30 ROS used 43 boards for a capacity of 4032 60-bit words (with one spare board).
+The access time for this ROS is 0.75 microsecond.
+
+It was relatively easy to change ROS cards in installed systems.
+This flexibility was important because the Model 30 had an option to emulate the machine instruction set of the very popular IBM 1401.
+Figure 9 (taken from another source) show IBM Field Engineer changing the ROS for a Model 30.
+
+Figure 3 show the code portion of a module from the Model 40 Transformer ROS.
+Instead of a capacitor forming the connection between the word line and the bit line,
+the TROS used a transformer at the intersection.
+Figure 4 is a closeup of one of the Mylar strips containing two 54-bit ROS words.
+The word line is etched on the strip and completes a loop from one end back to the same end.
+The current is routed in one of two ways around a central metal core for each bit.
+The current direction around the core determines whether it is sensed as a 0 or 1.
+The current direction is controlled by punches that disconnect one side of the current loop around each bit post.
+(Much more about this ROS design can be found in D.M.Taub,T he Design of Transformer (Diamond Ring) Read-Only Stores, IBM Journal, September 1964.)
+
+Figures 5 & 6 show the "bit line" sensing mechanism that sits on top of the metal cores for each bit.
+Each module has 128 tapes, each storing 2 words. A total of 16 modules formed the ROS for the Model 40, for a total of 4K words.
+The access time was 240ns with a cycle time of 625ns.
+Figure 8 shows 8 modules of the Model 40 ROS; another 8 modules are behind the visible ones.
+
+Figure 10 is part of the Balanced Capacitor ROS of the [IBM System/360 Model 50](http://www-03.ibm.com/ibm/history/exhibits/mainframe/mainframe_PP2050.html).
+It is called balanced because the capacitance load on the word line is the same regardless of the pattern of bits.
+This is as opposed to the Card Capacitor ROS shown in Figure 1 where the number of 1 bits changes the word line capacitance.
+The balanced approach allows a faster access time: the timing of the Model 50 was 90 ns access and 200 ns cycle.
+The disadvantage of the balanced approach is that the bit patterns have to be manufactured into the card,
+as opposed to the card capacitor approach where new ROS bits can be created on site.
+
+Figure 11 shows a closeup of the card. A ROS bit is represented by two locations along the word lines.
+There are two "word" line for each bit: one is the drive line to trigger reading.
+Attached to this line is one "pad" shaped per bit.
+There are two sense lines for each bit on the sensing plane that the ROS cards are pressed against:
+one for 1 and one for 0.
+The position of this bit pad over the two sense lines determines whether it is represents a 1 or 0.
+The other word line a "balance" line for attaching the complement of the bit flags.
+For example, compare the first two bits of the top two bit rows in Figure 11.
+The first two bit pads are the same: the right pad is attached to the drive line.
+The next bits are different: top row has left pad attached, and bext row has right pad attached.
+
+(Much more about this particular ROS design can be found in S.A.Abbas, A Balanced capacitor Read-Only Storage, IBM Journal, July 1968.)

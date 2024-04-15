@@ -1,0 +1,26 @@
+name: CRT Memory
+---
+last_updated: 2010-07-26
+---
+priority: 4.0
+---
+tags: components
+---
+figures:
+
+1 | storage_tube | 
+2 | storage_tube_cu | 
+---
+description:
+
+### CRT Memory
+
+This is a Raytheon CK1383 "dual-gun cathode ray recording storage tube" circa 1963.
+This is a advanced design of an early (before core memory) approach to data storage called
+a [Williams Tube](http://en.wikipedia.org/wiki/Williams_tube).
+While used in some early computers, the original Williams Tube approach had many drawbacks:
+among these are very short data retention, destructive reads, and cannot read and write at the same time.
+
+The device shown here solves these issues: it has long retention times, reads are not destructive
+and it is capable of simultaneous read and write.
+The [datasheet](http://www.datasheetarchive.com/ck1383-datasheet.html) for this interesting device is very informative.

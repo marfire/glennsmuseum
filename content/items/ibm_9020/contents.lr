@@ -1,0 +1,64 @@
+name: IBM System/360 9020 Air Traffic Control Console
+---
+last_updated: 2010-07-26
+---
+priority: 7.0
+---
+tags: ibm
+---
+figures:
+
+1 | 9020_console | IBM 9020 console
+2 | ibm9020_cu1 | IBM 9020 console
+3 | ibm9020_cu2 | IBM 9020 console
+4 | ibm9020_cu3 | IBM 9020 console
+5 | ibm9020_cu4 | IBM 9020 console
+6 | 9020_config | IBM 9020 console
+---
+description:
+
+### IBM System/360 9020 Air Traffic Control Console
+
+The IBM 9020 system was a specially configured multiprocessor system that was used as the main FAA air traffic control computer from 1971 until the early 1990's.
+It was installed at the 20 FAA regional ARTCCs (Air Route Traffic Control Centers).
+Unlike standard IBM mainframes of the day, the 9020 was programmed to operate in "real time":
+that is, to compute and generate results as fast as or faster than data were fed into it.
+A full 9020 system consisted of six [System/360](http://en.wikipedia.org/wiki/IBM_System/360) mainframes coupled to air traffic controllers' consoles,
+with data fed into the system from long-range radar and other ground stations.
+The six System/360 mainframe computers were connected together in a highly redundant and reliable multiprocessing configuration
+with special I/O capabilities (such as attaching radar consoles) not found in the standard System/360's.
+Only 25 9020 systems were ever built.
+
+Early 9020 versions used System/360 Model 50 processors for all six processors,
+but our console comes from the latest 9020E version which used three Model 65's for "compute elements"
+and three Model 50's for "I/O control elements".
+Our control console is from one of the Model 65 computers, and is slightly different than the standard Model 65 console.
+
+A quick deviation to discuss the IBM System/360.
+While technically obsolete now, the introduction of the System/360 family was a seminal event in computer evolution.
+The instruction set architecture was the most modern for its day and had many influences on current architecture (such as 8-bit bytes and 32-bit words).
+It also introduced a new I/O approach: a high-performance and programmable "channel" that could attach a vast and diverse set of I/O devices.
+The most significant feature was the concept of a family of computers, all having the same instruction architecture but with different performance
+and capacities, and all using the same I/O devices.
+Initially six models were announced: the [Model 30](http://www-03.ibm.com/ibm/history/exhibits/mainframe/mainframe_PP2030.html),
+the [Model 40](http://www-03.ibm.com/ibm/history/exhibits/mainframe/mainframe_PP2040.html),
+the [Model 50](http://www-03.ibm.com/ibm/history/exhibits/mainframe/mainframe_PP2050.html),
+the Models 60 and 62, and the Model 70. These covered a performance range of about 100:1 and ranged from microprogrammed eight-bit datapath to hardwired
+64-bit datapath. Yet they all ran the same software and used the same physical I/O devices.
+
+Another eight model types were delivered during the System/360's lifetime, including the highly influential
+[Model 67](http://www-03.ibm.com/ibm/history/exhibits/mainframe/mainframe_PP2091.html),
+[Model 85](http://www.cs.cmu.edu/~15-610/READINGS/optional/liptay68.pdf), and
+[Model 91](http://www-03.ibm.com/ibm/history/exhibits/mainframe/mainframe_PP2091.html).
+As a result of the technical features and especially the scalability and software compatibility across the family,
+the System/360, and its follow-ons such as the System/370 family, dominated the mainframe business.
+
+The 9020 system had an abnormally long lifetime; the corresponding System/360 commercial products were withdrawn from sales in 1977, but the 9020 lingured in use until the early 1990's.
+One reason for this long life is the fact that much of the air traffic control application was written in System/360 assembly language.
+Another factor is the 9020's specialized radar console interfaces.
+As an example of the 9020 staying power, here's a scary NTSB [report](http://libraryonline.erau.edu/online-full-text/ntsb/special-investigation-reports/SIR96-01.pdf) from 1996 about ARTCC outages pointing out that some of the ARTCCs
+are still using the 9020's at late as 1995!
+This reports discusses problems such as aging components where "replacements can be obtained only by scavenging parts
+from the [FAA] training computer". Thirty years is a long time for any complex equipment to remain functional,
+but in the world of computing technology, thirty years is many many generations of architecture and technology.
+Consider, as one example, that the 9020's used magnetic core memory and that a Model 65's performance was less than 1 MIPS!

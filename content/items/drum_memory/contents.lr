@@ -1,0 +1,46 @@
+name: Zentronik Drum Memory
+---
+last_updated: 2012-12-15
+---
+priority: 7.0
+---
+tags: components
+---
+figures:
+
+1 | drum_full | Drum Memory
+2 | drum_rear_panel | Drum Memory
+3 | drum_cu | Drum Memory
+4 | drum_label | Drum Memory
+---
+description:
+
+### Zentronik Drum Memory
+
+Before there were discs, magnetic drum memory was the state-of-the-art storage device.
+In fact, earlier computers like the IBM 650 had no other memory device (no core memory, for example) other than its drum.
+Here is an example of an early drum memory made behind the Iron Curtain by (I believe)
+Zentronik Works in East Germany (GDR) sometime in the 1960's.
+The Zentronik company manufactured several small computers as mentioned
+[here](http://de.wikipedia.org/wiki/Kombinat_Zentronik).
+
+This wonderful device is a ***very generous gift*** from Dr. Čestmír Čejka, a collector in the Czech Republic. He writes:
+
+> It is a vintage Easten German very early magnetic memory unit made by
+Zentronik in the city Zella-Mehlis in Saxonia. The works in Zella-Mehlis
+were well known already before the war for its production of
+electro-mechanical business machines, such as Mercedes Euklid.
+Beginning about 1960, this factory started the first programme of
+manufacturing of digital computers in the Eastern block. This memory
+belongs to some of these earliest computers. In my opinion it was made in
+the second half of the 1960's.
+
+Figure 1 shows the whole unit. The drum motor sticks up on top of the drum mechanism with the read/write heads surrounding the drum.
+Figure 2 shows the rear panel of this device with its connections to the rest of the computer.
+A closeup of the label showing the manufacture's name and city is shown in Figure 4.
+Figure 3 is a closeup of the head mechanisms.
+There are eight columns with 16 heads each.
+Its not clear if the heads are a combined read/write or just a read read or a write head.
+
+Details like rotation speed of the drum, data organization, data rates, etc. are not available.
+I've hesitated to take the drum out so far since it seems difficult and I didn't want to damage the unit.

@@ -1,0 +1,169 @@
+_model: home
+---
+_template: page.html
+---
+atom_author: G. Glenn Henry
+---
+atom_subtitle: A collection of old IBM and military computers.
+---
+title: Home
+---
+body:
+
+<figure class="intro_pic">
+    <a href="/pics/lobby.jpg"><img src="/pics/lobby_500.jpg"></a>
+    <figcaption>In the Centaur lobby we displayed two of my favorite pieces: the control panel from a rare <a href="/items/IBM_9020/">IBM 9020 system</a> 
+(a cluster of five System/360 computers used by the FAA for air traffic control up through 1989),
+ and a very high-end (it cost $50,000 in 1964) and fully functional <a href="/items/sd_80/">
+Systron-Donner Model 80</a> analog computer from the 1960's.</figcaption>
+</figure>
+
+This is my personal collection of old computer stuff. It focuses on stuff that I particularly like: 
+old processors,
+old IBM stuff, 
+old military computers,
+old encryption devices,
+and miscellaneous technically interesting stuff. 
+
+Most of the stuff I have can be
+found in the many real computer museums, but some of my
+items&mdash;especially old military things&mdash;seem to be rare.
+
+I don't known the function or usage of some of the items, so I'd appreciate any data you might have. 
+Feel free to write me <a href="mailto:glennh@cincocerros.com">here</a> if you have comments, questions, etc. 
+
+Thanks for visiting!
+
+----
+<figure class="align_left">
+    <a href="/bombsights/"><img src="/pics/norden_top-small.jpg" alt="Norden bombsight"></a>
+</figure>
+
+<figure class="align_right">
+    <a href="/bombsights/"><img src="/pics/b29_cfcs-small.jpg" alt="B-29 Bomber Central Station Fire Control Computer"></a>
+</figure>
+
+#### [Old Military Computers](/bombsights/)
+This is my favorite category: pre-transistor era (1940-1960) special-purpose electro-mechanical "computers" (almost all military devices).
+These are bombsights, gunsights, fire-control computers, navigation computers, air-data computers, and so forth.
+Some of these are quite sophisticated. They all represent lost computing technologies.
+
+----
+<figure class="align_left">
+    <a href="/latermil/"><img src="/pics/asq_155_cu-small.jpg" alt="A-6 ballistics computer"></a>
+</figure>
+
+<figure class="align_right">
+    <a href="/latermil/"><img src="/pics/anyuk44_full-small.jpg" alt="AN/UYK-44 computer"></a>
+</figure>
+
+#### [More Recent Military Computers](/latermil/)
+Similar to the above category, but transistor-based: bombsights, gunsights, fire-control computers, navigation computers, etc.
+Less visually impressive then the earlier mechanical versions, but the multiplicity of designs is impressive.
+
+----
+<figure class="align_left">
+    <a href="/ibm/"><img src="/pics/9020_console-small.jpg" alt="IBM 9020 Console"></a>
+</figure>
+<figure class="align_right">
+    <a href="/ibm/"><img src="/pics/ibm705_full-small.jpg" alt="IBM 705 Console"></a>
+</figure>
+
+#### [IBM Stuff](/ibm/)
+I first programmed on IBM computers in 1963 and I worked at IBM from 1967 through 1988.
+Here is old (pre-PC) IBM stuff of particular interest to me:
+some rare consoles, card equipment, and lots of components (tubes, boards, chips, etc.).
+(Note: IBM military stuff is in the military categories.)
+
+----
+<figure class="align_left">
+    <a href="/items/s3m6/"><img src="/pics/s3m6_front_lf_2-small.jpg" alt="IBM System/3 Model 6"></a>
+</figure>
+<figure class="align_right">
+    <a href="/items/s3m6/"><img src="/pics/s3m6_wires_side_gate-small.jpg" alt="IBM System/3 Model 6"></a>
+</figure>
+
+#### [IBM System/3 Model 6](/items/s3m6/)
+This particular IBM system is special to me since (1) my first management job in IBM (1969) was developing BASIC software for the Model 6,
+and (2) I met my wife (then, an IBM programmer) while working on this product.
+Accordingly, I have given it a "top-level" category in the museum.
+
+----
+<figure class="align_left">
+    <a href="/items/s32/"><img src="/pics/ibm_s32_front-small.jpg" alt="IBM System/32"></a>
+</figure>
+<figure class="align_right">
+    <a href="/items/s32/"><img src="/pics/ibm_s32_front_disk-small.jpg" alt="IBM System/32"></a>
+</figure>
+
+#### [IBM System/32](/items/s32/)
+This particular IBM system is also special to me since I worked on the software design in 1971-1974.
+Accordingly, I have given it a "top-level" category in the museum.
+
+----
+<figure class="align_left">
+    <a href="/analog/"><img src="/pics/sd_panel_cu-small.jpg" alt="Complete and working Systron-Donner 80 Analog Computer"></a>
+</figure>
+<figure class="align_right">
+    <a href="/analog/"><img src="/pics/tr_10-small.jpg" alt="EAI TR-10 analog computer"></a>
+</figure>
+
+#### [General-Purpose Analog Computers](/analog/)
+Analog computers are of special interest to me since I had some experience using an analog computer in 1966-1967.
+In addition, they were very important in the evolution of computing.
+Up until about 1970, digital computers were too slow to solve the complex differential equations of motion,
+so analog computers were heavily used in applications such as designing airplanes, calculating rocket trajectories, 
+doing real-time control, etc.	    
+Our collection is small, but contains a very rare and powerful (and working) example.
+
+----
+<figure class="align_left">
+    <a href="/items/b61/"><img src="/pics/pc_front-small.jpg"></a>
+</figure>
+<figure class="align_right">
+    <a href="/items/b61/"><img src="/pics/sep-small.jpg"></a>
+</figure>
+
+#### [B61 Nuclear Bomb](/items/b61/)
+Okay, I don't have a bomb, but I do have a "preflight controller" from either a B61 nuclear bomb or a B61 training device.
+I'm giving this item a major focus in my museum partly because it's rare and
+also because I have a great interest in the non-nuclear components of nuclear weapons:
+the arming, firing, and "surety" (safety, security, and reliability) mechanisms.
+I hope someday to use this section to expand on this topics,
+but for now all you get is a description of the preflight controller.
+
+----
+<figure class="align_left">
+    <a href="/encryption/"><img src="/pics/fialka_full-small.jpg" alt="Soviet-era Fialka cipher device"></a>
+</figure>
+<figure class="align_right">
+    <a href="/encryption/"><img src="/pics/kg84_full-small.jpg" alt="US KG-84 cipher device"></a>
+</figure>
+
+#### [Encryption](/encryption/)
+I have a special interest in security features within the processor. 
+Here are a few security processors (not much here, but one is especially interesting).
+
+----
+<figure class="align_left">
+    <a href="/components/"><img src="/pics/burroughs_tubes-small.jpg" alt="Burroughs tube card"></a>
+</figure>
+<figure class="align_right">
+    <a href="/components/"><img src="/pics/core_1-small.jpg" alt="Core memory card"></a>
+</figure>
+
+#### [Components](/components/)
+Even though this is a "computer" museum, we actually have few complete computers: I'm more interested in the "insides" of computers.
+Here is our collection of miscellaneous control panels, memories, boards, etc.
+(If the component is from IBM, it lives in the IBM collection.)
+
+----
+<figure class="align_left">
+    <a href="/misc/"><img src="/pics/curta_full-small.jpg"></a>
+</figure>
+<figure class="align_right">
+    <a href="/misc/"><img src="/pics/stepping_relay-small.jpg"></a>
+</figure>
+
+#### [Miscellaneous](/misc/)
+What's left over... interesting technology things that don't easily fit into the other categories.

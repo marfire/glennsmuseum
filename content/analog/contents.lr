@@ -1,0 +1,71 @@
+_model: category
+---
+name: Analog Computers
+---
+tag: analog
+---
+description:
+
+## Sidebar: My Personal History With Analog Computers
+
+My actual work experience using analog computers was brief, but it had a large impact on my subsequent career.
+
+While I was in graduate school in 1966-1967, I got a job advising a [Fibreboard](http://www.library.hbs.edu/hc/lehman/company.html?company=fibreboard_corporation) paper mill facility in Antioch, CA. 
+(The mill is long gone since it was an environmental disaster.)
+I had two main assignments.
+One was teaching computer programming to their engineering staff.
+They did not have an on-site computer so I arranged to get them terminals (old teletype machines) to a remote time-sharing service using the
+[BASIC language](http://en.wikipedia.org/wiki/BASIC).
+Twice a week I drove to Antioch and taught BASIC to their engineers.
+
+The second part of the job was particularly interesting.
+Fibreboard was having problems with "exploding" milk carton material.
+They produced paperboard material coated with polyethylene.
+This material was later assembled into a milk carton and sealed by applying enough heat to melt the polyethylene.
+If the moisture levels in the paper were too high, the heat of sealing the carton's seams
+caused the moisture to boil causing a bubble that weakens the container.
+My assignment was to find a way that computers could help in reducing this problem.
+
+I started by touring the paper mill.
+Logs arrived by barges on the San Joaquin River, were turned into pulp, which was then fed into a
+[Fourdrinier continuous-flow paper machine](http://en.wikipedia.org/wiki/Paper_machine),
+which was many hundred feet long.
+At the far end of the machine giant rolls of paper appeared.
+The key component for my purposes was the drying section where the wet paper passed through a maze of steam-heated cylinders.
+Key variables were the moisture content of the paper entering the dryer, the roller temperatures, and the speed of the paper passing through the rollers.
+Fibreboard periodically sampled these values and recorded them by hand.
+After the fact, these values could be associated with a particular batch of paper,
+which was also know to be a good or flawed batch re moisture using post-process sampling.
+
+I soon programmed a heat flow model that, based on measurements from the process,
+could accurately predict a good batch or a bad batch, and, most importantly,
+identified how the process parameters needed to be changed on the bad batches.
+Of course, by the time I could collect the data and run the model, the paper batch was long gone on the way to a customer.
+What was needed was a real-time process-control computer that could measure, model, predict, and make adjustments as the paper flowed through the rollers.
+So, I started investigating the state real-time process-control computers.
+   
+Finding no statisfactory digital solutions (a long story here, which I'll skip), I turned to analog computers.
+I learned the concepts of analog computers and
+visited the sales office of a major analog computer manufacturer (either EAI or Beckman, I believe) in San Francisco.
+Hoping for a sale, they let me program my model on one of their demo systems.
+The process input was simulated by potentiometers, and the feedback control was represented by voltmeters.
+My model seemed to work fine with real-time feedback, but the solution was impractical for Fibreboard.
+The computer was too environmentally sensitive for the plant floor, it required constant maintenance, and so forth.
+Plus, I was ready to graduate and they had no one to continue driving this project.
+
+However, I had now fallen in love with the concept of real-time computer control.
+So, when I learned that IBM in nearby San Jose had a group developing real-time process-control computers, I decided to try to get hired there.
+I ended up taking a job in the IBM PCSSS (Process Control and Small Scientific Systems) group at San Jose,
+rejecting many other offers, most offering a higher salary.
+My initial job was programmer on the MPX operating system for the
+[IBM 1800 process-control computer](http://en.wikipedia.org/wiki/IBM_1800_Data_Acquisition_and_Control_System).
+(Interestingly, the IBM 1800 was later used in controlling paper mills.)
+
+I won't go into the details here, but joining this particular IBM group turned out to be a great decision and, I believe,
+was a critical contributor to my later becoming an IBM Fellow.
+ 
+## The Other Analog Computers in the Museum
+
+Actually, the [Old Military](/bombsights/) section has many special purpose analog computers.
+Almost all bombsights, gunsights, and navigation computers were analog though the 1940's and '50's.
+This section is for general purpose analog computers.

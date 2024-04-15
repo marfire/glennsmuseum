@@ -1,0 +1,19 @@
+name: Sperry K-9 Computing Gun Sight
+---
+last_updated: 2010-07-26
+---
+priority: 2.5
+---
+tags: bombsights
+---
+figures:
+
+1 | k9_cu | 
+2 | k9_cu3 | 
+---
+description:
+
+### Sperry K-9 Computing Gun Sight
+
+The Sperry K-9 is a computing gunsight used in Marin upper gun turrets on the [B-26](http://en.wikipedia.org/wiki/B-26_Marauder) and [B-24](http://en.wikipedia.org/wiki/B-24) bombers.
+It operates similarly to the Sperry K-3 except that the computer is fixed and gets information from a separate movable sighting head.

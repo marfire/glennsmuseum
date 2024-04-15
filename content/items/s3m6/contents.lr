@@ -1,0 +1,183 @@
+name: IBM System/3 Model 6
+---
+last_updated: 2013-08-30
+---
+priority: 9.5
+---
+tags: ibm
+---
+figures:
+
+1 | ibm_s3_control_panel | IBM System/3 Model 10 Console
+2 | ibm_s3_control_panel_detail | IBM System/3 Model 10 Console
+3 | ibm_s3_ad_excerpt | IBM System/3 Mod 6 ad
+4 | s3m6_front_lf_2 | IBM System/3 Mod 6
+5 | s3m6_front_rt | IBM System/3 Mod 6
+6 | s3m6_kb | IBM System/3 Mod 6
+7 | s3m6_fkeys_lbl | IBM System/3 Mod 6
+8 | s3m6_wires_side_gate | IBM System/3 Mod 6
+9 | s3m6_inside_gate | IBM System/3 Mod 6
+10 | s3m6_logic_side_gate | IBM System/3 Mod 6
+11 | s3m6_core | IBM System/3 Mod 6
+12 | s3m6_ce_panel | IBM System/3 Mod 6
+13 | s3m6_back_lf | IBM System/3 Mod 6
+14 | s3m6_back_table | IBM System/3 Mod 6
+15 | s3m6_back_drive | IBM System/3 Mod 6
+16 | s3m6_disk_drawer_open | IBM System/3 Mod 6
+17 | s3m6_5444_top_disk_removed | IBM System/3 Mod 6
+18 | s3m6_5444_heads | IBM System/3 Mod 6
+19 | s3m6_system_stuff | IBM System/3 Mod 6
+20 | s3m6_app_packs | IBM System/3 Mod 6
+21 | s3m6_pack_detail | IBM System/3 Mod 6
+22 | s3m6_diags | IBM System/3 Mod 6
+23 | s3m6_basement | IBM System/3 Mod 6
+---
+description:
+
+### The IBM System/3 Model 6: The "Real" First IBM Personal Computer
+
+The [IBM System/3 family](http://en.wikipedia.org/wiki/IBM_System/3) was a very successful line of small business-oriented computers in the 1970's.
+The first member, the Model 10, shipped in mid-1969 and was a card-based batch-oriented system intended to replace unit-record
+(punched card) commercial applications: billing, inventory control, accounts receivable, sales analysis, payroll, etc.
+The System/3 applications were written in RPG, a non-procedural language originally based on the data-flow of IBM card-based accounting machines.
+Of particular interest, the Model 10 introduced a new format of punched card along with I/O devices for it.
+This card was much smaller than the standard IBM card but could contain more data: 96 columns vs. 80 columns.
+
+Figures 1 and 2 show our console from the card-oriented IBM System/3 Model 10.
+ 
+The System/3 Model 6,shipped in late 1970, was the second model introduced.
+As opposed to the card-based batch-oriented Model 10, the System/3 Model 6 was designed for interactive usage, both for business applications, but also for engineering and scientific applications.
+It had no attached card equipment, but rather had a good keyboard and an (optional) CRT display.
+The business applications used the same general operating system and RPG language,
+but there was a new interactive BASIC-language operating system for engineering and scientific applications.
+
+Figure 3, from an IBM ad, shows a person using the System/3 Model 6 with its BASIC software package.
+Figures 4 etc. show the museum's Model 6 (we do not have the optional CRT display).
+
+#### Sidebar: My Personal History With the IBM System/3 Model 6
+
+In 1968 I was working at IBM San Jose on the design of a follow-on to the IBM 1130,
+a small engineering and scientific computer.
+Late in the year, our project was redirected by upper management 
+to use another IBM processor that was being developed in Rochester: the IBM System/3 processor.
+This was probably the worst architecture ever imagined for engineering and scientific computing:
+- No floating-point instructions
+- No multiply or divide instructions
+- No shift instructions
+- No registers (other than 2 index registers)
+- (All operations were memory-to-memory)
+- Only 16-bit addresses, no virtual memory hardware
+- etc.
+
+I was redirected as well--to the newly forming Boca Raton development laboratory.
+I arrived in Boca in early 1969 and became the manager of one of two departments developing the
+*IBM System/3 Model 6 BASIC* program.
+I managed the operating system underlying the BASIC interpreter.
+My department implemented a 64KB virtual memory (in software, there was no address translation hardware), 
+the math library, the I/O subsystem, a powerful desk calculator function (ala the later UNIX &quot;bc&quot; function),
+and an integrated, disk-based help system.
+In spite of my complaints about the System/3 instruction set, the BASIC system actually performed well.
+
+In addition to the BASIC project being my first IBM management job,
+I also met my wife while working on this project;
+she was an IBM programmer in Boca working on operating system development. 
+(In fact, as a nice touch, my System/3 Model 6 arrived literally on the day of our 42th anniversary.)
+
+After my work on the System/3 Model 6 was finished, I worked on the design of another small computer system.
+That project was cancelled and, in the Fall of 1971, I moved to Rochester where my new job was ss
+the second-line manager of the system software for another new small computer system:
+the [IBM System/32](http://www-03.ibm.com/ibm/history/exhibits/rochester/rochester_4017.html).
+Amazingly, the museum also has our own System/32, [check it out](/items/s32/).
+
+#### The First IBM PC?
+
+The IBM System/3 Model 6 hardware together with its BASIC software package was,
+I claim, the first "IBM Personal Computer"; that is,
+a computer on a desk with a keyboard and a CRT display device, a printer, a removable disk drive,
+and software for a user to program in interactive BASIC.
+Effectively, this system could do what the Apple II did, only much better (internal fixed disk, 64KB virtual memory, etc.),
+and 9 years earlier.
+
+The only flaws with our solution was that it was a large desk with an large lump on one end,
+it weighed 1,300 lbs, it used 220V power, and it rented for about $1,000 a month.
+Accordingly, sales were low and the BASIC software received little attention in the market or within IBM.
+(In spite of the BASIC system having no visibility, I and another person from my department \[Brad Beitel\] went on to be very successful at IBM.) 
+
+#### The Museum's Model 6
+
+My Model 6 was procured in August, 2013.
+It came from the original owner who had used it to run business applications for her small company.
+It was used for this purpose until about 1985 when it was decommissioned by IBM and stored in the owner's basement,
+where it gradually became buried under typical basement storage items (show in Figure 23).
+
+Getting it physically to the museum (in Austin) from the basement in Omaha was a complicated logistically operation,
+but it finally made it.
+(Mark Rothbauer of Centaur was the key person here; he went to Omaha and freed it from the basement.) 
+The system's condition is dusty but good considering the it is over 40 years old and hasn't been used for over 25 years.
+The usage meter indicates 2977 hours powered on.
+The Model 6 also came with 17 disk packs including the operating system, as well as a lot of documentation.
+
+I (with help from others here at Centaur) will try to restore it to running condition.
+The likely things that need repairing are replacing electrolytic capacitors and drive belts,
+but my biggest worry is the disk drive.
+Stay tuned for progress.
+
+The Model 6 is very rare these days.
+A [interesting web site that covers System/3 family](http://www.ibmsystem3.nl/remaining.html) tracks existing devices. 
+It knows of only two other Model 6's, neither of which are operational.
+
+#### A Walk-Around
+
+Figures 3, 4, and 5 show the general layout.
+Figure 6 shows the keyboard, which is very nice, especially for that time. Included are a numerical keypad and 16 function keys.
+The keyboard complex also included the basic controls for the operator along with &quot;halt code&quot; lights which the program can set.
+Figure 7 show detail of the 16 lights corresponding to the function keys.
+These keys are used by the application program and thus have user-writable labels on the lights to remind the operator of what the keys do.
+To the right of the function key labels there are another eight output lights that can be set by the program.
+These also have user-writable labels and are used to tell the operator what function to perform next.
+
+Figure 8 shows the back of the swing-out logic gate with its wiring. There are five logic boards installed. (The missing one is for a communication option).
+Figure 9 show the other side of the gate and Figure 10 shows it with the board covers removed.
+Figure 11 shows a closeup of a particularly interesting board.
+On the left of this board are eight pluggable cards, each containing many modules, primarily IBM MST logic modules (more on this technology below).
+On the right of this board is the magnetic-core memory module.
+Our system is fortunate in that it has the largest possible Model 6 memory: 16KB. 
+The smallest memory for a Model 6 was 8KB. (The BASIC software package I worked on ran in only 8KB). 
+
+(The Model 6 was probably the last IBM computer to use core memory.
+Subsequent System/3 models used solid state memory as did the S/370 IBM mainframe family at this time.)
+ 
+The System/3 instruction set was very simple. It had 28 instructions, two index registers,
+a condition flags register, and some control registers. 
+There were no accumulator or general purpose registers;
+operations were performed memory-to-memory.
+For example, the ALC (Add Logical Characters) instruction (4-6 bytes long, based on addressing options)
+adds one memory field to another field, one-byte at a time for a specified length from 1 to 256 bytes. 
+Instruction timing is simple: 1.52&mu;s for each memory byte touched.
+For example, a 4-byte ALC instruction moving 16 bytes in memory takes 30.4&mu;s.
+
+Figure 12 shows the CE (Customer Engineer) control panel. This was our primary debug tool when I was developing code for this system.
+We would single step the code examining processor state using the lights.
+You could also easily modify memory from this console.
+Figures 13 and 14 show the back view of the system including the cables the connect the two halves together. 
+For shipping and installation, the system could be separated into two components: the &quot;table&quot; part, and the &quot;box&quot; part.
+(Our system had to be separated into two pieces in order to get it though doors.)
+
+Figure 15 shows the back of the 5444 disk drive unit at the left of the table (from the front).
+There is a compartment for a second 5444 under this, but our system only has one disk drive.
+There were two models of this drive; the larger had a capacity of 5MB split equally between a fixed platter and a removable platter.
+
+Figure 16 shows the disk drawer opened with the removable disk installed. 
+Below this is a fixed disk platter that shares the same access arm as the removable disk.
+Figure 17 shows the disk drawer with the removable disk removed.
+The fixed disk is barely visible through a hole on the right (where the index transducers are).
+Figure 18 shows a view looking at the retracted heads and the cleaning brushes on the right.
+
+Figure 19 shows some of the documentation received and five disk cartridges containing system software.
+Figure 20 shows 12 more cartridges that we have.
+Figure 21 show a closeup of the removable disk cartridge with the access holes for the heads and cleaning brishes.
+
+Finally, Figure 22 shows the a cassette tape used by the IBM Customer Engineer to run diagnostics and deliver software fixes.
+This was used since the only removable medium is the disk cartridge, too large for the CE to haul around.
+So, looking at Figure 12, there is an audio jack ("J1") used to plug in a ordinary tape player.
+

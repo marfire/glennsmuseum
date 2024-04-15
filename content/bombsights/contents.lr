@@ -1,0 +1,64 @@
+_model: category
+---
+name: Old Military
+---
+tag: bombsights
+---
+description:
+
+<figure class="intro_pic">
+    <a href="/pics/f4_dive_laydown.jpg"><img src="/pics/f4_dive_laydown.jpg" width=500></a>
+    <figcaption>This is a bombing diagram from a great reference book that I have: <a href="/reference/f4_book.jpg"><em>F-4E Inertial Navigation Bombing System: Aircrew Handbook</em></a></figcaption>
+</figure>
+
+# Old Bombsights, Gun Sights & Navigation Computers
+## The Real Killer App
+
+As for many technologies, World War II was a catalyst for advancing the state of the art in computing. 
+The devices in this section of the museum were developed for WW II use and the early days of the the cold war.
+This early computer usage was dominated by one fundamental application:
+ how to aim a projectile (airplane, bomb, rocket, bullet, artillery shell, torpedo)
+so that it will properly arrive at a target.
+For artillery applications, the locations are typically not moving and the calculations can be done
+ahead of time and stored in tables. 
+Starting in the 1800's, specialized computers called <a href="http://en.wikipedia.org/wiki/Differential_analyser">differential analyzers</a>
+were developed to calculate these artillery *ballistic tables*.
+One of the first computers, [EDVAC](http://en.wikipedia.org/wiki/EDVAC), was developed specifically to calculate these tables.
+
+More interesting are the cases where one or both of the source and target are moving, are at possibly different
+altitudes, possibly changing direction or altitude, and the calculation must be done in real time. Some obvious
+examples are dropping a bomb, shooting a gun from an airplane, and shooting a torpedo from a submarine.
+A closely related application is navigation: calculating the path to get from point A to point B. 
+Another real-time computing application for this period is the <i>air data computer</i>, which calculates the calibrated air speed, mach number, altitude, and climb rate from 
+an airplane's pitot-static system combined with other variables such as reference pressure and temperature.
+
+Starting in the early 1900's, specialized electro-mechanical *analog* computers were developed to solve these computing problems.
+Analog computers were used because the primitive digital
+computers were not fast enough for real time applications
+(they were also not physically robust enough enough for airplane and
+ship operations). 
+The key computations needed for these applications are addition, multiplication, trigonometry, and numerical integration.
+These can be easily and quickly performed by mechanical or electrical circuitry used in an analog fashion. 
+For example, the typical mechanical integrator (invented in the mid-1800's)
+consists of a rotating disc and a small wheel sitting on the disk and rotating with it.
+The rate of rotation of the wheel is proportional to the
+product of the disk rotation rate and the radius of the point of
+contact between the disk and wheel.
+If the radius *y* is changed as a function of the wheel rotation, *x*, 
+then the accumulated rotation of the wheel at a given moment is proportional to the integral of *y* with respect to *x*.
+
+The disadvantage of analog computers is, of course, lack of precision.
+This is not critical where the inputs are imprecise ( human
+controls, for example) and the outputs control imprecise equipment
+(hydraulic moving of a gun turret, for example). 
+
+A great paper on on the early history of mechanical analog computers
+for military applications is [here](http://web.mit.edu/STS.035/www/PDFs/Newell.pdf).
+
+I'm particularly interested in these electro-mechanical computing devices
+since they represent a lost computing technology. 
+While today I work on very fast and complex micro-processors containing hundreds of
+millions of transistors, the design and manufacturing
+of these 1940's and 1950's devices seems unfathomable to me.
+I doubt that anyone could manufacture something like these devices,
+especially not in high volume.

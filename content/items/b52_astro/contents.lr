@@ -1,0 +1,32 @@
+name: B-52 MD-1 Astro Navigator
+---
+last_updated: 2010-07-26
+---
+priority: 5.0
+---
+tags: bombsights
+---
+figures:
+
+1 | astro_bottom | 
+2 | astro_cu | 
+3 | astro_label | 
+4 | astro_top | 
+---
+description:
+
+### B-52 MD-1 Astro Navigator
+
+Before GPS, a primary navigation method for ships, aircraft, spacecraft and missiles was celestial tracking, also known as astronavigation.
+The basic approach is to sight on the sun or a particular star and calculate the position of the aircraft, missile or ship from the sighting angles to the star.
+The calculation is based upon highly accurate data about the positioning of the sun and certain reference stars at various time and locations.
+For modern applications, the star tracking location is used to calibrate and update an inertial navigation system.
+
+Early Air Force aircraft such as early B-52 bombers relied on a human using a sextant through a bubble in the top of the plane.
+Some time in the late '60s, manual sighting was replaced on the E and F models by this automatic astro tracker mechanism and its associated analog computer.
+At some point, the astro navigator was replaced by GPS.
+Our device has a maintenance tag dated 1983, so the system was used at least until then.
+
+Similar "star trackers" were and are used on many other planes such as the SR-71 and RC-135 reconnaissance aircraft, the B-58 bomber, and the P-3 Orion patrol plane.
+Of special interest is the fact that the most modern USAF plane, the B-2 bomber, still has a automatic star tracker navigation system.
+Many missiles, including some currently operational ones, also use automated start tracker navigation: the Polaris, Poseidon, Trident, MX, SM-62 Snark and the AGM-28 Hound Dog, and others.

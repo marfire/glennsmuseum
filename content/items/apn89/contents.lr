@@ -1,0 +1,55 @@
+name: B-52 AN/APN-89 Doppler Ground Speed Computer
+---
+last_updated: 2010-07-26
+---
+priority: 6.5
+---
+tags: bombsights
+---
+figures:
+
+1 | apn89_full | AN/APN-89 Doppler Groundspeed Computer
+2 | apn89_end | AN/APN-89 Doppler Groundspeed Computer
+3 | apn89_side1 | AN/APN-89 Doppler Groundspeed Computer
+4 | apn89_end2 | AN/APN-89 Doppler Groundspeed Computer
+5 | apn89_dial | AN/APN-89 Doppler Groundspeed Computer
+6 | apn89_components | AN/APN-89 Doppler Groundspeed Computer
+---
+description:
+
+### B-52 AN/APN-89 Doppler Ground Speed Computer
+
+This device is one component of the AN/ASQ-38 bombing/navigation system developed for the
+[B-52E bomber](http://www.globalsecurity.org/wmd/systems/b-52e.htm), first placed in service in 1957. 
+The AN/ASQ-38 bombing and navigation system comprises many parts including:
+  
+- MD-1 automatic astrocompass
+- AN/AJA-1 or AN/AJN-8 true heading computer system
+- AN/APN-89A Doppler radar
+- AN?ASB-4, AN/ASB-9A or AN/ASB-16 bombing navigation system 
+
+(Figure 6 shows the components from a very similar AN/APN-108, which was used on a different model of the B-52.)
+
+The APN-89 system uses doppler radar to provide ground speed and drift angle information to the ASb navigation system.
+The Doppler radar fed ground speed and drift information into the ASB navigation system.
+To calculate ground speed using Doppler radar, 
+a radar signal is transmitted at a specific frequency that 
+reflects off of the ground and returns to the plane.
+Since the plane's radar sensor is moving relative to the ground, the reflected signal will be shifted in frequency 
+when it returns.
+This shift in frequency allows measurement of the relative velocity between 
+the sensor and target. 
+This, of course, is the same mechanism used in various speed detectors ("radar guns"),
+as well as in weather radar and many other applications. 
+
+The general formula for the shift in frequency is:
+  
+Fshift = 2V(Fi/c)cos(t)
+  
+where V is the velocity difference, Fi is the transmitted frequency, c is the speed of light, and t is the angle 
+that the transmitted signal makes with the ground.
+Of course, this is only approximate since, for example, the radar beam spreads out
+ causing a spead of returned frequencies (varying angles of intersection).
+
+The APN-89 radar used a frequency of 8700-8900 MHz.
+The quoted accuracy was 2.1 knots and 0.15% drift angle.

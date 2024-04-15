@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.name }}{% endblock %}
+{% block body %}
+    {{ this.description }}
+    <h2>List of Items</h2>
+    <a href="everything/">View all</a>
+    <ul>
+      {% for item in site.query('/items').filter(F.tags.contains(this.tag)) %}
+        <li><a href="{{ item|url }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+{% endblock %}

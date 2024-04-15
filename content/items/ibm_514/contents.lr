@@ -1,0 +1,25 @@
+name: IBM 514 Reproducing Punch
+---
+last_updated: 2010-07-26
+---
+priority: 3.5
+---
+tags: ibm
+---
+figures:
+
+1 | ibm_514 | IBM 514 Reproducing Punch
+2 | ibm_514_inside | IBM 514 Reproducing Punch
+3 | ibm_514_cu1 | IBM 514 Reproducing Punch
+4 | ibm_514_cu2 | IBM 514 Reproducing Punch
+---
+description:
+
+### IBM 514 Reproducing Punch
+
+Figure 1 shows our [IBM 514 Reproducing Punch](http://en.wikipedia.org/wiki/IBM_514).
+It basically reads punched cards and punches new cards based on the read cards, but not necessarily with the same data.
+In addition to simple punch-for-punch reproduction, based on the plugboard control
+the 514 can perform other functions such as inserting "master" information on each punched card,
+reproducing only some of the data and possibly in different locations,
+and creating and printing sequence numbers on the output cards.

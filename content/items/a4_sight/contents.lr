@@ -1,0 +1,30 @@
+name: A-4 "Gun Bomb Rocket" Sight
+---
+last_updated: 2011-12-10
+---
+priority: 3.0
+---
+tags: bombsights
+---
+figures:
+
+1 | a4_sidea | A-4 Gunsight
+2 | a4_sideb | A-4 gunsight computing unit
+3 | a4_label | A-4 Gunsight
+4 | a4_sighthead | A-4 gunsight label
+5 | a4_sighthead_lbl | A-4 Gunsight
+6 | a4_sighthead_view1 | A-4 Gunsight
+7 | a4_sighthead_view2 | A-4 Gunsight
+8 | a4_sighthead_view3 | A-4 Gunsight
+9 | a4_sighthead_cu | A-4 Gunsight
+10 | a4_pg1 | F-86 flight manaul page about A_4 gunsight
+11 | a4_pg2 | A-4 Gunsight
+---
+description:
+
+### A-4 "Gun Bomb Rocket" Sight
+
+This is the sighting element and the computing element of the gun/bomb/rocket aiming sight used on [F-84 Thunderjet](http://en.wikipedia.org/wiki/F-84)
+and [F-86 Sabrejet](http://en.wikipedia.org/wiki/North_American_F-86_Sabre) fighters.
+Figures 1-3 show the computing element, and Figures 4-9 shows the separate sighting element.
+Figures 10 and 11 show information about the A-4 from from an F-86 flight manual.

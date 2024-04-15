@@ -1,0 +1,36 @@
+# Disable directory listings
+Options -Indexes
+
+# New redirects for changes to URL structure
+Redirect permanent /change_log.html /change-log/
+Redirect permanent /bombsights/bombsights.html /bombsights/
+Redirect permanent /later_mil/later_mil.html /latermil/
+Redirect permanent /analog/analog.html /analog/
+Redirect permanent /ibm/ibm.html /ibm/
+Redirect permanent /s3m6/index.html /items/s3m6/
+Redirect permanent /s3m6/s3m6.html /items/s3m6/
+Redirect permanent /s32/index.html /items/s32/
+Redirect permanent /s32/s32.html /items/s32/
+Redirect permanent /components/components.html /components/
+Redirect permanent /encryption/encryption.html /encryption/
+Redirect permanent /misc/misc.html /misc/
+Redirect permanent /controller/controller.html /items/b61/
+Redirect permanent /bombsights/everything.html /bombsights/everything/
+Redirect permanent /bombsights/apa44_range_computer.html /items/apa44_range_computer/
+Redirect permanent /bombsights/apn89.html /items/apn89/
+Redirect permanent /bombsights/aqs13.html /items/aqs13/
+Redirect permanent /bombsights/asn30.html /items/asn30/
+Redirect permanent /bombsights/b54_gunsight.html /items/b54_gunsight/
+Redirect permanent /bombsights/mark1.html /items/mark1/
+Redirect permanent /bombsights/mk6.html /items/mk6/
+Redirect permanent /bombsights/norden.html /items/norden/
+Redirect permanent /bombsights/p4_gunsight.html /items/p4_gunsight/
+Redirect permanent /bombsights/sperry_s1.html /items/sperry_s1/
+Redirect permanent /bombsights/sperry_t1a.html /items/sperry_t1a/
+Redirect permanent /bombsights/y7_bombsight.html /items/y7_bombsight/
+
+# Dreamhost's default caching (https://help.dreamhost.com/hc/en-us/articles/216363157-How-can-I-cache-my-site-with-an-htaccess-file-)
+# is mostly fine: 10 mins for html, 1 month for images. (We could cache images forever, though, and just modify the filename when changes are needed.)
+# We do need to create a rule for our Atom feed to avoid default 2-day caching.
+# Dreamhost seems to be adding validation headers for all assets.
+ExpiresByType application/atom+xml "access plus 1 hour"

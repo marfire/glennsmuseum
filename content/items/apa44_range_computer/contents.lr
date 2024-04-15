@@ -1,0 +1,43 @@
+name: APA44 Range Computer
+---
+last_updated: 2010-07-26
+---
+priority: 7.0
+---
+tags: bombsights
+---
+figures:
+
+1 | apa44_front | APA44 Range Computer
+2 | apa44_top | APA44 Range Computer
+3 | apa44_side1 | APA44 Range Computer
+4 | apa44_side2 | APA44 Range Computer
+5 | apa44_bottom | APA44 Range Computer
+---
+description:
+
+### APA44 Range Computer
+
+I don't know much about this device other than the AN description:
+
+> AN/APA-44: Ground Position Indicator System; 
+manufactured by Bell Telephone Lab.; used with AN/ASB-3 and AN/APS-23/27/31; used in B-45 (together with AN/APS-23 to form AN/APQ-24), RB-66
+ 
+where ASB-3 is:
+
+> AN/ASB-3: Bomb Directing Set; manufactured by Bell Telephone Lab.; used AN/APA-44, AN/APS-23
+
+and the APS- devices are search radars. And:
+
+> AN/APQ-24: K-1 Radar Navigation & Bombing System; used in B-36B, B-45A, B-50, B-66B
+
+The fact that this device was used on the [B-45 Tornado bomber](http://en.wikipedia.org/wiki/North_American_B-45_Tornado) is interesting.
+The B-45 was U.S.'s first jet powered bomber and the first with in-air refueling.
+It looked suspiciously like a World War II bomber with jet engines instead of propellers.
+For example, the wings were staright instead of swept back.
+
+The B-45 is not well known today since it was limited in many areas and was fairly quickly replaced by the 
+[B-47 Stratojet bomber](http://en.wikipedia.org/wiki/Boeing_B-47_Stratojet),
+the first bomber with a modern jet-based design.
+There were only 143 B-45's produced and they entered service in 1948 and by the early 1950's,
+most had been converted to reconnaissance versions, the RB-45. 

@@ -1,0 +1,118 @@
+name: Russian M-125 (Fialka or ФИАЛКА) Cipher Device
+---
+last_updated: 2010-07-26
+---
+priority: 9.5
+---
+tags: encryption
+---
+figures:
+
+1 | fialka_covers | Russian Cipher Device (Fialka)
+2 | fialka_full | Russian Cipher Device (Fialka)
+3 | fialka_card_slot | Russian Cipher Device (Fialka)
+4 | fialka_right | Russian Cipher Device (Fialka)
+5 | fialka_back | Russian Cipher Device (Fialka)
+6 | fialka_kb | Russian Cipher Device (Fialka)
+7 | fialka_rotor_stack | Russian Cipher Device (Fialka)
+8 | fialka_inside | Russian Cipher Device (Fialka)
+9 | fialka_rotors | Russian Cipher Device (Fialka)
+10 | fialka_rotor_core | Russian Cipher Device (Fialka)
+11 | fialka_rotor_cu | Russian Cipher Device (Fialka)
+12 | fialka_power | Russian Cipher Device (Fialka)
+13 | fialka_power_cu | Russian Cipher Device (Fialka)
+14 | fialka_doc | Russian Cipher Device (Fialka)
+---
+description:
+
+### Russian M-125 (Fialka or ФИАЛКА) Cipher Device
+
+This Russian-designed [Fialka](http://en.wikipedia.org/wiki/Fialka) (aka the M-125) encryption device is probably my favorite
+item in my museum since (1)
+the Fialka device is (as far as I know) the state-of-the-art
+for a very popular type of encryption devices called [rotor machines](http://en.wikipedia.org/wiki/Rotor_machine),
+(2) the Fialka's existence and details became publicly available only a few years ago,
+and (3) it's a very clever piece of mechanical and electrical engineering!
+
+The Fialka was used in the Warsaw pact (east European) countries until the dissolution of the Soviet Union (ours seems to be a Czechoslovakian model).
+The devices themselves are fairly rare, but fortunately there is a significant amount of very good information on the web
+about the Fialka and its operation. I highly recommend (and commend) the work found [here](http://www.cryptomuseum.com/crypto/fialka/)
+and [here](http://w1tp.com/enigma/mfialka.htm)
+which includes an outstanding piece of reverse engineering [here](http://www.cryptomuseum.com/crypto/fialka/files/man030.pdf).
+If you have any interest in encryption or this particular type of device, you should definitely read these references.
+
+After World War I, many countries (including the US) developed rotor machines and used them for encryption.
+The most famous of these was the German [Enigma](http://en.wikipedia.org/wiki/Enigma_machine), used in World War II.
+The Fialka uses the same general principles as the Enigma, but is *much* more sophisticated and provides much better encryption.
+All rotor machines implement a [substitution cipher](http://en.wikipedia.org/wiki/Substitution_cipher),
+in particular a "polyalphabetic cipher".
+This means that encryption is done by replacing each plaintext character with some algorithmically chosen other character,
+*and* the algorithm for choosing the replacement character changes after each substitution.
+The changing substitution algorithm effectively disguises the plaintext character frequency.
+An encryption key of some sort defines how the substitution algorithm changes for each character.
+This encryption method was used by hand for hundreds of years with the most famous example being
+the [Vigenere cipher](http://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher).
+The fundamental weakness of such hand-implemented polyalphabetic approaches is the limited number of replacement algorithms (or alphabets) used.
+For example, if the key is only five characters long, every fifth plain text character will be replaced using the same algorithm.
+
+However, if the key is longer than the plaintext, and the substitution algorithm is unbiased, then this substitution approach is theoretically unbreakable.
+In practice this is done using a encryption approach known as a ["one-time pad"](http://en.wikipedia.org/wiki/One-time_pad).
+The cryptographic strength of the one-time pad approach is that the replacement for each plain-text character
+is effectively chosen from a list of random values (the key), the list being at least as long as the message being encrypted.
+The weakness, of course, is that the decrypter must have the same (possibly very long) list of random values,
+thus creating complexity and risks in the key distribution.
+
+Rotor machines attempt to approximate the random character substitution of a one-time pad using a mechanised algorithm and a very short key.
+The mechanics, of course, are not random but are very repeatable given some initial state.
+That initial state then is the key that must be known to both encrypter and decrypter.
+
+The basic mechanism in rotor machines for performing the character substitution is... a rotor.
+The rotor has electrical contacts on each side (one for each alphabetic character)
+and internal wiring that performs the mapping of an input character to a different output character.
+Multiple rotors with different character mapping are chained together with some mechanism that can rotate the rotors to new mappings
+after each character, thus constantly changing the effective substitution alphabet.
+Although many encryption devices have been employed using this general approach,
+each is different in the details: how many rotors, how they move, what mappings are in the rotors, what does the key control, etc.
+The encryption strength of a particular device really depends on these types of details.
+Our Fialka has several detailed design features that address known deficiencies in other devices.
+
+There are several different versions of the Fialka, or M-125, ours is one of the most advanced models, the M-125-3MP2.
+More description of the special features of our particular version are found [here](http://w1tp.com/enigma/mf3mn.htm).
+We have a full set of the most modern type code wheels (6K, adjustable) and a full set of older type backup wheels (6K, fixed).
+Our keyboard is the Czechoslovakian multi-lingual version with four characters per key: Cyrillic, Latin, special characters, and numerics.
+
+For those who don't want to read the detailed references, I'll provide a short summary.
+First, a quick walk around (some of the features will be covered in more detail later):
+Figures 1 and 2 show the entire unit, with and without its cover.
+The the keyboard and rotors are visible along with some control switches, and a paper tape reader mechanism (the lower right).
+The paper tape output punch and printer can be seen at the far rear.
+Figure 3 shows the left side which has a slide out slot (show open) for a character remapping control card,
+this card is a key component of the encryption algorithm.
+Figure 4 shows the right side containing more control switches along with the emergency hand crank for moving the rotors
+(the full encryption mechanism is powered by an electric motor).
+Figure 5 shows the rear with the electric motor and the back of the paper tape and printer out mechansims.
+Figure 6 is a closeup of the keyboard showing the multiple character sets and
+Figure 7 is a closeup of the stack of 10 rotors.
+Figure 8 show the rotor bay with the rotor removed.
+The electrical contacts to the rotor are shown along with the fingers at the bottom which rotate the rotors after each character.
+Figure 9 shows the main rotor stack partly disassembled with the complete backup rotor in the background.
+The contacts on both sides of each rotor are seen.
+Figure 10 shows a rotor with its inner wiring core removed.
+The positioning of this core is part of initial setting and this flexibility provides a great deal of cryptographic strength.
+Figure 11 is a closeup of the wiring core where you can just make out some of the character-mapping wires within the core
+Figures 12 & 13 show the companion power supply.
+It's a pretty nice unit that delivers 24V from a multitude of input AC voltages or form DC.
+Figures 13 shows a copy of the German-language manual.
+Note, however, that all the Fialka switches are labeled in Russian.
+
+So, how does it encrypt or decrypt?
+- One of the 30 keys is pressed, let's say an A. (Or, a character could have been read from the paper tape reader.)
+- The activated wire corresponding to the input character wire goes to the card reader (the slot on the left side).
+- Holes punched in the card control the swapping of characters. So, our A is translated to a T, say.
+- The activated T wire goes to the first rotor, where it is translated to a X, say.
+- The X ouput of the first rotor goes to into the second rotor and is translated to a Y, say.
+- This routing and translation continues through rotor 10 where the resulting signal is translated
+within the "reflector" (the terminating terminal of the rotor stack) and sent back into rotor 10.
+- Rotor 10 translates and sends the result back to rotor 9 and so forth until the final output from rotor 1.
+- The final output character signal is encoded and printed and punched on the papertape.
+

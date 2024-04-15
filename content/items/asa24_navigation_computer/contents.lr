@@ -1,0 +1,22 @@
+name: ASA-24 Navigation Computer
+---
+last_updated: 2010-07-26
+---
+priority: 2.0
+---
+tags: bombsights
+---
+figures:
+
+1 | asa24_front | ASA-24 Navigation Computer
+2 | asa24_back | ASA-24 Navigation Computer
+3 | asa24_side | ASA-24 Navigation Computer
+4 | asa24_side2 | ASA-24 Navigation Computer
+---
+description:
+
+### ASA-24 Navigation Computer
+
+Actually, I'm not sure what this really is.
+In the military's AN classification scheme, it falls between ASA-23, a "Missile Launching Set",
+and ASA-25, a "ASW Data Display Group".

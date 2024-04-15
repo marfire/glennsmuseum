@@ -1,0 +1,101 @@
+name: IBM System/32
+---
+last_updated: 2014-03-30
+---
+priority: 9.4
+---
+tags: ibm
+---
+figures:
+
+1 | ibm_s32_full | IBM System/32
+2 | ibm_s32_front | IBM System/32
+3 | ibm_s32_kb | IBM System/32
+4 | ibm_s32_ce_panel | IBM System/32
+5 | ibm_s32_front_disk | IBM System/32
+6 | ibm_s32_front_gate | IBM System/32
+7 | ibm_s32_back_gate | IBM System/32
+8 | ibm_s32_back_disk | IBM System/32
+---
+description:
+
+### The IBM System/32: The Second IBM Personal Computer
+
+Announced in early 1975, the [IBM System/32](http://www-03.ibm.com/ibm/history/exhibits/rochester/rochester_4017.html)
+was the lowest cost IBM offering (at the time) and became very popular.
+
+It was a small single-user business-oriented computer that was less expensive than the System/3 Model 6 (some models leased for less than $1,000 per month.
+The System/32 was designed for business applications (e.g., billing, inventory control, accounts receivable, sales analysis, etc.) written in RPG.
+
+The system was a single desk-sized unit comprising a processor, fixed-disk storage, a data diskette, a printer, and an operator console
+with a small visual display screen.
+The System'32's tiny display contained six lines of 40 characters each.
+Solid-state main storage was available in sizes from 16K to 32K bytes.
+A emovable contained around 262 KB, and the fixed disk options were approximately 5 or 9MB.
+Two communication options were available (BSCA and SDLC) supporting data rates up to 7200 bps.
+
+Figure 1 shows the complete System/32 (the weird photo angle is to mask a huge amount of junk in the room).
+Figure 2 shows the operator station with the small display on the left and the printer behind the keyboard,
+which is shown in more detail in Figure 3.
+Figure 5 shows the hidden CE panel (in front of which I spent many nights, see below).
+Swinging the logic gate out, we see in Figure 5 the giant disk drive.
+Figure 6 and 7 show the front and back of the logic gate.
+This small amount is the entire logic in the system (other than the CRT control logic and without the optional communications feature).
+Figure 8 shows the back of the unit with the vertically mounted CRT in a shield to the left of the disk drive.
+The motor for the diskette reader is alos seen below the CRT shield.
+
+From an application viewpoint, the System/32 had the same instruction set as the System/3 models and the system software (SCP) was very similar to that of the System/3 Model 6's. Similarly, the primary application language was RPG.
+Due to its small business orientation and low cost, the System/32 was very successful:
+according to the IBM link, it became the most installed IBM computer of the 1970's.
+
+Even though the System/32 appeared to software to have the System/3 instruction set,
+internally the processor did not directly execute System/3 instructions.
+To minimize cost, the I/O devices were very "dumb" and the processor (called the Control Storage Processor, or CSP)
+was optimized for low-level control of the I/O devices.
+The code executing in the CSP (called microcode) was contained in a writable control storage
+and included an emulator of the System/3 instruction architecture.
+
+Microcode for the System/32 was much simpler than the typical "horizontal" microcode as implemented on other IBM processors.
+The System/32 processor had what we would later call a RISC architecture.
+Instructions were 16-bits wide and addresses were 16-bits wide.
+The microcode control storage was 4K 16-bit words (an extension of another 4K was available and contained emulation of floating-point arithmetic).
+Four usable interrupt levels each had eight 16-bit general purpose registers.
+All logical and arithmetic instructions were register-to-register operations.
+Main memory was accessed only by load and store instructions.
+There were condition flags for branching and only about 19 basic instructions.
+Of course, there was no pipelining, no caches, no branch prediction, or other performance features like are common on modern processors.
+
+A CSP instruction executed in, on average, five to seven 200ns clock pulses.
+That is, a CSP microcode instruction instruction executed in about the same time as the 1.5us processing of a byte in the memory-to-memory architecture of the System/3.
+Since emulation of a System/3 architecture instruction tool many microcode cycles, emulation of System/3 was very slow.
+This lead to the innovation of moving some of the SCP into microcode (discussed more below).
+
+#### Sidebar: My Personal History With the IBM System/32
+
+In 1970, I finished my work on system software for the [IBM System/3 Model 6](/items/s3m6/).
+I then worked on the architecture of another proposed small computer, which was killed and the key personnel asked to move to Rochester MN.
+I was offered the job of the second line manager developing the operating system (the System Control Program, in IBM terminology)
+for a new small computer system (which ultimately became the System/32).
+So, in 9/71, I moved to Rochester (getting married to an IBM programmer on the way).
+ 
+As well as being the manager of the system software development,
+I proposed and personally coded microcode that implemented some of the disk management functions of the operating system in microcode.
+While this seems obvious now, at the time I believe this was the first time this was done in IBM (moving SCP functions into microcode).
+I vividly remember watching the 1972 Olympics at home nights while also translating the System/3 SCP disk management code in microcode.
+There was no simulator of the CSP; the only way to debug code was on the hardware.
+Machine time was hard to get since there were few models available and the engineers were busy working on them.
+Thus, I mainly found time to use the hardware at night.
+I remember long nights sitting in front of a very early hardware model and debugging my code using the control panel shown in Figure 4 (the only debug mechanism available).
+Due to the developing nature of the hardware, I also found a few bugs in the hardware.
+
+#### The Museum's System/32
+
+The museum acquired the System/32 from its original owner in a small ranching and farming town in Oregon.
+This information came from its only owner before the museum acquired it:
+
+"I bought it new in the 70's for a farm machinery business to do bookkeeping and some inventory control.
+There were no bookkeeping software packages tailored for the 32 at that time,
+so the IBM sales folks found me a system 3 package and a programmer to modify it to run on the 32.
+My training to this point was a degree in engineering using a slide rule.
+I worked with the programmer and the wonderful instruction manuals and learned RPGII
+and went on to write many programs for the 32 and my business."

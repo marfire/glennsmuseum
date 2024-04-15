@@ -1,0 +1,35 @@
+name: B-57 AN/ANS-7 Navigation Computer 
+---
+last_updated: 2010-07-26
+---
+priority: 5.0
+---
+tags: bombsights
+---
+figures:
+
+1 | ans7 | xx
+2 | ans7_detail | 
+---
+description:
+
+### B-57 AN/ANS-7 Navigation Computer 
+
+This is a navigation computer used in the [RB-57](http://en.wikipedia.org/wiki/RB-57),
+the [C-135](http://en.wikipedia.org/wiki/C-135),
+the [F-100](http://en.wikipedia.org/wiki/F-100_Super_Sabre),
+and the [RF-101](http://en.wikipedia.org/wiki/RF-101).
+
+([Here](http://www.designation-systems.net/usmilav/electronics.html#_JETDS_AN_Listings)
+is a site summarizing the U.S. military equipment
+designations, such as AN/ANS-7).
+
+The ANS-7 first flew in the late 1950's. It was made by the Ford Instrument Co. (not affiliated with Ford
+motor companies).
+At the time Ford was one of the premier manufacturers
+of electro-mechanical analog computers, including the most impressive
+monster: the Mark I, which weighed over 3,000 lbs. (More on the Mark I
+below).
+
+Figure 2 is a closeup of two of the three disk integrators (as described in
+the intro to this page) contained within the ANS-7.

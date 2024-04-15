@@ -1,0 +1,26 @@
+{% macro make_path(path) %}
+    {{ "/pics/" + path + ".jpg" }}
+{% endmacro %}
+
+{% macro render_figure(figure_id, path, alt_text) %}
+        <figure>
+        <a href="{{ make_path(path) }}"><img src="{{ make_path(path + "-small") }}" alt="{{ alt_text }}"></a>
+        <figcaption>{{ "Figure " + figure_id }}</figcaption>
+    </figure>
+{% endmacro %}
+
+{% macro render_figures(figures, mod_index) %}
+    {% for fig in figures.splitlines() if fig %}
+        {% if loop.index0 % 2 == mod_index %}
+            {% set figure_id, path, alt_text = fig.split("|") %}
+            {{ render_figure(figure_id.strip(), path.strip(), alt_text.strip()) }}
+        {% endif %}
+    {%  endfor %}
+{% endmacro %}
+
+{% macro render_item(item) %}
+    <div class="align_left">{{  render_figures(item.figures, 0) }}</div>
+    <div class="align_right">{{  render_figures(item.figures, 1) }}</div>
+
+    {{ item.description }}
+{% endmacro %}

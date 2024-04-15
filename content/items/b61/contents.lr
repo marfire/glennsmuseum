@@ -1,0 +1,176 @@
+name: B61 Nuclear Bomb Preflight Controller
+---
+last_updated: 2010-07-26
+---
+priority: 9.5
+---
+tags: b61
+---
+figures:
+
+1 | mc4136_001 | 
+2 | b61_parts_full |
+3 | mc4136_cmd_disable |
+4 | mc4136_002 |
+5 | mc4136_cmd_disable |
+6 | mc4136_from_1587134 |
+7 | b61_trainer |
+8A | t249_switch | T-249 bomb control switch
+8B | dcu_9a | DCU-9/A bomb control switch
+8C | f111_ctrl_front | F-111 bomb control switch
+9 | pc_rear |
+10 | nuclear_consent | F-16 Nuclear Consent Switch
+11 | t_handle |
+12 | sep |
+13 | pc_pal_socket_cu |
+14 | pc_command_disable | Command Disable
+15 | pal_ctrl |
+16 | coded_switch | Coded Switch
+17A | b-1b_aft_annotate | Coded Switch
+17B | b-1b_aft_person_annotate | Coded Switch
+17C | b-1b_aft_diagram_annotate | Coded Switch
+---
+description:
+
+### B61 Nuclear Bomb Preflight Controller
+
+Our device (figures 1 and 9) appears to be a "preflight controller" from a [B61 nuclear bomb](http://en.wikipedia.org/wiki/B61_nuclear_bomb)
+(also [here](http://nuclearweaponarchive.org/Usa/Weapons/B61.html))
+(or, more likely, from a B61 trainer like [this](http://www.sandia.gov/LabNews/LN10-18-02/labnews10-18-02.pdf)).
+There are many versions of a B61, our device probably comes from one of the tactical versions (Mods 3, 4, or 10).
+The B61 family is the best documented of all modern U.S. nuclear weapons and there is much information on the web;
+I recommend further online reading.
+
+The preflight controller lives in the third of the four major bomb segments.
+Figure 2 is a low-resolution picture (from other sources)of a B61 bomb somewhat disassembled (the nuclear explosive component is not disassembled).
+The preflight controller is in the middle segment and has its access flap opened in this picture.
+The controller allows preflight setting of things like fuzing options and
+functions related to "use control" of the weapon.
+It interfaces with the aircraft's AMAC (Aircraft Monitoring and Control) system and connects to the bomb's arming and firing mechansisms.
+
+Before I describe the component in more detail, I need to talk about its provenance, or,
+how do I know it's a preflight controller from a B61 bomb or B61 training device?
+The person I got this from had mislabeled it as a part from an A-6 Intruder fighter-bomber.
+And the "demil" label also has "A-6" written on it.
+But, it is a B61 preflight controller; 
+here's my evidence...
+
+One critical reference that I have is *Interim Development Report for the B61-6,8 Bombs, Sandia report SAND88-2986* (redacted).
+Here are the three (heavily redacted) pages (figures 3, 4 &amp; 5) describing the Mod-6,8 preflight controller (MC4136) and one page describing the "command disable" controls on the controller.
+The controls described and shown in SAND88-2986 are very similar to our device (the MC4136 has a "mission" switch which ours doesn't,
+and ours has a separate "strike enable plug" socket).
+Furthermore the command disable mechanism (interaction of the three code switches, the option switch to set "DI",
+and the T pullout handle) is described precisely,
+and our device behaves exactly the same way.
+The position of the controls shown. however, is slightly different than ours,
+but a layout difference is reasonable since there are several versions of the B61, each with slightly different controllers.
+
+Figure 6 is a page from *Recovery and Recycling of Aluminum, Copper,
+and Precious Metals from Dismantled Weapon Components, SAND94-2759* and shows of a B61 preflight controller case.
+The controls in this picture are positioned <i>exactly</i> the same as in our specimen.
+A further hazy confirmation is found in this very low resolution picture of a B61 training device (figure 7).
+The diagram on the wall shows a control panel with connections to the front of the bomb looking similar to ours.
+And, of course, the center section of the previously shown disassembled B61 picture looks like our control panel.
+Another subtle clue is that the only component visible without taking the tightly sealed controller apart is labeled MC2865.
+The "MC" designation is used by Sandia for weapon components.
+
+Another obvious question is why is there a preflight control panel on the bomb itself,
+doesn't the aircraft control all these settings? Yes, and no. 
+New aircraft such as the B-2 bomber have an advanced AMAC (Aircraft Monitoring and Control) system
+(based on [MIL-STD_1760](http://en.wikipedia.org/wiki/MIL-STD-1760)
+which can control the various bomb options (including setting the PAL unlock code).
+Older aircraft such as the [A-6 Intruder](http://en.wikipedia.org/wiki/Grumman_A-6_Intruder)
+had more primitive AMAC systems that could not control may of the bomb options from the aircraft.
+
+So, based on SAND88-2886 and other sources, what does the preflight controller control?
+The two-digit switches labeled TA and TB specify two "safe separation" times in seconds.
+This defines the time that must elapse after the bomb is released from the aircraft before detonation can occur.
+(The actual arming process starts a few seconds before this time, but detonation cannot occur before this time).
+Our switches are hard-wired to start at 10 seconds.
+The choice between the two specified separation times is done via aircraft control.
+
+The switch labeled delivery specifies one of two options for the fall of the bomb: FF (freefall) or RE (parachute retarded). 
+(The choice of fuzing--airburst or groundburst--is usually is specified by the AMAC.
+For example, Figure 8A shows our T-249 switch from a 1960's B-52 bomber,
+and Figure 8B is the similar DCU-9/A also used on B-52 bombers.
+Figure 8C is the more complicated nuclear weapon control switch from the 
+[F-111 bomber](http://en.wikipedia.org/wiki/General_Dynamics_F-111_Aardvark).
+
+These switches control air burst vs. ground detonation, and the F-111 controls free-fall vs. parachute retarded fall.)
+Some models of the B61 have an additional delivery option of "laydown". 
+This is like parachute-retarded groundburst except that detonation is delayed for some period of time after contact.
+This provides time for a low-flying delivery aircraft to avoid being destroyed by the detonation.
+Figure 9 shows another element of the aircraft control system: an "nuclear consent" switch from an
+[F-16 fighter](http://en.wikipedia.org/wiki/General_Dynamics_F-16_Fighting_Falcon).
+
+The delay switch control the delay between separation and deployment of the parachute (in the case of retarded fall.
+The options we have are G (0.3 s deployment delay), H (0.6s delay), and J (1.6s delay).
+In the case of a laydown delivery, this switch also controls the delayed detonation time.
+
+The function of the switch labeled option is redacted from my copy of the B61-7,8 report.
+A reasonable guess is that the option switch controls the yield; most B61 versions have multiple selectable nuclear yields.
+The details of variable yield are heavily classified, but reputable sources claim that the four yields options are possible with most versions.
+Our option switch has 6 settings: A-F.
+
+The MC4142 "strike enable plug" (figure 12) is just that: this plug must be inserted to complete critical circuits in the arming and firing mechanisms.
+In particular, the plug completes "IUQS" signal and nuclear identification signal from the AMAC connection.
+(The IUQS is a multi-pulse encoded signal necessary to open a critical switch in the arming and firing system.
+This involves some very interesting concepts that are publically documented; I recommend further reading.)
+Our plug has a "tr" on it, perhaps futher indicating that it's from a training device.
+
+The three numeric switches at the bottom, together with the swich right above them and the T-handle are used to initiate "command disable". 
+This option will perform a "non-violent" function within the nuclear explosive component
+that disables the device from being able to detonate. 
+This disablement can only be undone at the bomb assembly facility.
+The existance of a command disable function is publically documented, 
+but the details of how it functions are highly classified.
+An obvious hypothesis is that disablement is caused by a unreversable switch (possibly an explosive switch) severing the bomb's power input. 
+Another likely possibility is that a small explosive charge destroys critical triggering components.
+The mechanism must be inside the sealed exclusion region of the bomb or else it could be undone easily.
+ 
+To initiate the command disable function, the appropriate code is set in the three code wheels.
+In our device, the code is 1-1-1 (there is an exact sequence that must be followed of resetting the code to 0 and then setting 1-1-1).
+Then an interlock on the above four-position switch is released and it can be turned from "N" (normal or nuclear, I guess) to "DI" (disable).
+Then an interlock on the T-handle is released and it can be removed.
+Removing the T-handle (figure 11) pulls out and releases a plunger which hits the primer of a MC4246A thermal battery.
+This battery directly provides power to the disablement function.
+As expected, our device has no battery installed.
+ 
+Note that there are two more options on the N/DI switch: "CC" and "R".
+I have no documentation as to what these two other function are but a good guess as to R is "render safe procedure"
+which returns bomb to a safe (e.g., before pre-arming) condition.
+CC is likely used for changing the 3-digit code.
+It can be selected using the same 1-1-1 code, but setting CC appears to lock the code wheels.
+ 
+Finally, there is the PAL (Permissive Action Link) conector socket shown in figure 13 (the J1 socket).
+The PAL mechanism is a coded lock <i>within</i> the nuclear explosive region that prevents unauthorized arming and detonation.
+The details of how it works are highly classified, but a good general description of the history and the concepts are found
+[here](http://en.wikipedia.org/wiki/Permissive_Action_Link) and [here](http://www.cs.columbia.edu/~smb/nsam-160/pal.html).
+(This is a massively interesting concept; I recommend further reading.)
+
+For the B61 family, depending on the aircraft type, the PAL unlock code can be entered either from the AMAC system in aircraft 
+(using a coded switch similar to the one shown in figure 16)
+or pre-flight via the J1 PAL socket on the preflight controller using an external code-entry device such as the one shown in figure 17 (picture is from SAND88-2986).
+(The switch is Figure 16 is not an actual nuclear coded switch, but it is very similar--see the sidebar below).
+Some aircraft, such as the original <a href="http://en.wikipedia.org/wiki/Rockwell_B-1_Lancer">B-1B</a> bomber, 
+do not have the AMAC wiring to support PAL operations and instead use a coded switch as part of the pre-arming process to a weapon
+whose PAL has been unlocked on the ground--see the coded switch sidebar below. 
+
+In addition to unlocking the weapon, a PAL controller can also change the unlock code as well as setting the device into a maintenace mode.
+In this mode the sealed "exclusion region" can be opened without triggering the "active protection" mechanism.
+This is a highly classified mechanism that is present in some nuclear weapons which "senses attempts to gain unauthorized access
+to critical weapon components, and responds by initiating weapon disablement." (from <i>PAL Control of Theater Nuclear Weapons, SAND82-2436</i>).
+
+## Sidebar: The Coded Switch
+Figure 16 is not a real military coded switch, but it sure seems similar. 
+Figure 17A is a photo of a portion of the aft cockpit of an early 
+B-1B bomber with the real coded switch highlighted.
+Figure 17B is a photo of a person using the same aft cockpit. The highlighted coded switch is at an angle.
+Figure 17C is a portion of the B-1B aft cockpit diagram with the position of the coded switch highlited.
+Note that the similarity of the simple drawing and the pictures to our switch: four button/light shapes to left of a switch, with six selectiable hex switches above. 
+
+(Also, a closeup of Figure 17A seems to show that it is using a strange military hexadecimal notation where E, J, L, M, P, and R are used instead of A, B, C, D, E, and F.)
+
+The early B-1B is an example of a aircraft that does not use an aircraft-controlled PAL mechanism.
+Instead, the coded switch is part of the arming path to a weapon whose PAL has been unlocked on the ground.
+Note that modern B-1B bombers no longer have support for nuclear weapons.

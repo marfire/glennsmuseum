@@ -1,0 +1,34 @@
+name: Sperry K-3 & K-4 Computing Gun Sights
+---
+last_updated: 2010-07-26
+---
+priority: 5.0
+---
+tags: bombsights
+---
+figures:
+
+1 | k3_all_new | K-3 Gunsight
+2 | k3_full | K-3 Gunsight
+3 | k3_top | K-3 Gunsight
+4 | k3_sight | K-3 Gunsight
+5 | k3_front | 
+6 | k3_lbl | K-3 Gunsight
+7 | k3_cu4 | 
+8 | k3_back | 
+9 | gif_k4_sight_lower_turret | 
+---
+description:
+
+### Sperry K-3 & K-4 Computing Gun Sights
+
+The K-3 is a computing gunsight used in used in Sperry upper gun turrets used on the [B-17](http://en.wikipedia.org/wiki/B-17) bomber.
+The K-4 is the same device with a different mount used in the Sperry lower gun turrets on the B-17.
+Figure 1 shows our two K-3's plus a computing element from a third.
+The other pictures show various views of these devices.
+Figure 9 shows a page from the *Gunner's Information File* illustrating the lower turret with the K-4 sight right in the middle.
+
+The gunner inputs range information by estimating the size of the plane and adjusting its image in the attached optical sight so that the image fits withing reticles.
+The gunner then tracks the target with the optical sight by moving the K-3 (mounted on a movable head) keeping the plane image centered in the reticles.
+The sight movements cause the computing unit, which, based on the range information and built-in ballistics data, to calculates the deflection, or *lead*,
+for aiming the guns and moves the turret accordingly.

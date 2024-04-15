@@ -1,0 +1,43 @@
+name: IBM & RAND JOSS terminal
+---
+last_updated: 2012-12-15
+---
+priority: 5.5
+---
+tags: ibm
+---
+figures:
+
+1 | joss_console_back | IBM/RAND JOSS Terminal
+2 | joss_console_front | IBM/RAND JOSS Terminal
+3 | joss_front | IBM/RAND JOSS Terminal
+4 | joss_back | IBM/RAND JOSS Terminal
+5 | joss_card_label | IBM/RAND JOSS Terminal
+6 | joss_codes | IBM/RAND JOSS Terminal
+7 | joss_front_cu | IBM/RAND JOSS Terminal
+---
+description:
+
+### IBM & RAND JOSS terminal
+
+[JOSS (JOHNNIAC Open Shop System)](http://en.wikipedia.org/wiki/JOSS)
+was a new computer language, which together with new remote terminals,
+attached to RAND's
+[JOHNNIAC mainframe computer](http://en.wikipedia.org/wiki/JOHNNIAC),
+comprised one of the first time sharing computer systems.
+
+This [RAND document](http://www.rand.org/content/dam/rand/pubs/reports/2008/R918.pdf)
+from RAND contains more information about the language and using the JOSS system.
+Of particular interest to us is the special console designed for JOSS,
+which is described in detail in
+[this RAND report](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM5218.pdf).
+The JOSS console comprises a modified IBM 731 "input-output" electric typewriter attached to a specially designed control logic
+which interfaces between the typewrite and a full-duplex communication channel.
+Figures 1 and 2 come from this RAND report showing the console: the typewriter on top of the control box.
+
+The museum contains an instance of the JOSS console control box.
+Figures 3 and 4 show the front and back sides.
+Figure 5 shows one of the 50 cards containing in the control unit's logic. This appears to use diode logic.
+Also in Figure 5 we see the RAND label and serial number of our controller.
+Figure 6 show some information pasted to the side of the controller,
+and Figure 7 show some of the status lights on the top of the controller.

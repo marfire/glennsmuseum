@@ -1,0 +1,18 @@
+name: SCRAM-Control Analog Computer
+---
+last_updated: 2010-07-26
+---
+priority: 2.5
+---
+tags: analog
+---
+figures:
+
+1 | scram_analog | SCRAM-Control Analog Computer
+2 | scram_analog_doc | SCRAM-Control Analog Computer
+3 | scram_analog_module | SCRAM-Control Analog Computer
+---
+description:
+
+### SCRAM-Control Analog Computer
+

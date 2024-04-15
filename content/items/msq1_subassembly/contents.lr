@@ -1,0 +1,24 @@
+name: AN/MSQ-1 Radar Tracking Subassembly
+---
+last_updated: 2010-07-26
+---
+priority: 3.5
+---
+tags: bombsights
+---
+figures:
+
+1 | msq-1_front | MSQ-1 Subassembly
+2 | msq-1_back | MSQ-1 Subassembly
+3 | msq-1_front-1 | MSQ-1 Subassembly
+4 | msq-1_side2 | MSQ-1 Subassembly
+5 | msq-1_label | MSQ-1 Subassembly
+---
+description:
+
+### AN/MSQ-1 Radar Tracking Subassembly
+
+The MSQ-1 was a 1950's era radar tracking system used in the control of
+[Matador surface-to-surface cruise missiles](http://en.wikipedia.org/wiki/MGM-1_Matador).
+Our subassembly is clearly part of the tracking display system.
+It is interesting because of its robust design; it is clearly designed for heavy duty use in high shock environments.

@@ -1,0 +1,19 @@
+name: AS/ASN 39A Navigation Computer (F4 Fighter)
+---
+last_updated: 2010-07-26
+---
+priority: 2.0
+---
+tags: bombsight
+---
+figures:
+
+1 | nav_x_front | 
+2 | nav_x_side | 
+---
+description:
+
+### AS/ASN 39A Navigation Computer (F4 Fighter)
+
+This is a component of the navigation computer used in various version of the F-4 fighter.
+In particular this was used in the U.K. variant, the F4K, and in the USN version, the F4J.

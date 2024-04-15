@@ -1,0 +1,26 @@
+name: AN/AQS-13 Dipping Sonar Controller
+---
+last_updated: 2010-07-26
+---
+priority: 3.5
+---
+tags: bombsights
+---
+figures:
+
+1 | aqs13_front | AN/AQS-13 Dipping Sonar Controller
+2 | aqs13_back | AN/AQS-13 Dipping Sonar Controller
+3 | aqs13_side1 | AN/AQS-13 Dipping Sonar Controller
+4 | aqs13_cu1 | AN/AQS-13 Dipping Sonar Controller
+5 | aqs13_cu2 | AN/AQS-13 Dipping Sonar Controller
+6 | aqs13_cu3 | AN/AQS-13 Dipping Sonar Controller
+7 | aqs13_cu4 | AN/AQS-13 Dipping Sonar Controller
+8 | aqs13_cu5 | AN/AQS-13 Dipping Sonar Controller
+9 | aqs13_cu6 | AN/AQS-13 Dipping Sonar Controller
+10 | aqs13_cu7 | AN/AQS-13 Dipping Sonar Controller
+11 | aqs13_cu6-2 | AN/AQS-13 Dipping Sonar Controller
+12 | aqs13_sub | AN/AQS-13 Dipping Sonar Controller
+---
+description:
+
+### AN/AQS-13 Dipping Sonar Controller

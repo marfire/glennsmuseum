@@ -1,0 +1,29 @@
+name: Systron-Donner Series 80
+---
+last_updated: 2010-07-26
+---
+priority: 7.0
+---
+tags: analog
+---
+figures:
+
+1 | sd_80_full_nopanel | 
+2 | sd_control | 
+3 | sd_80_full | 
+4 | sd80_boeing | 
+5 | sd_panel_cu | 
+6 | sd80_pricelist | 
+---
+description:
+
+### Systron-Donner Series 80
+
+The [Systron-Donner Series 80](/reference/sd_80.pdf), first shipped in 1964, is the Cadillac of general-purpose analog computers.
+It is transistor based instead of tube based as most of its contemporary analog computers, it offers a ± 100V computing range providing 3-4 digit accuracy, and it offers a rich set of analog functions.
+A Series 80 weighs about 700 pounds. It has a removable program panel; on the left is a picture of it with and without the program installed.
+
+Our Series 80 is fully functional; the pictures show it executing (perhaps simulating a new Centaur processor function invention).
+It is fully loaded with all of the optional features: 8 function generator cards, 220 10-turn potentiometers, digital voltmeter, and 42 computing modules.
+The original price for this configuration in 1965 was over $60,000 (a price list is shown on the right).
+Also shown is a picture from Boeing of a SD 80 in a Boeing 707 being used to analyze data for the SST program.

@@ -1,0 +1,24 @@
+name: B-36 AN/APA-59 Navigation Computer 
+---
+last_updated: 2010-07-26
+---
+priority: 4.0
+---
+tags: bombsights
+---
+figures:
+
+1 | apa59_cover | 
+2 | apa59 | 
+3 | apa59_detail | 
+4 | b_36f_bomb_nav_box | 
+---
+description:
+
+### B-36 AN/APA-59 Navigation Computer 
+
+This is part of a complex of devices that integrated navigation, radar, and bombing functions for the
+giant 10-engine [B-36 bomber](http://en.wikipedia.org/wiki/B-36_bomber).
+We have two components: the APA-59 navigation computer shown here and the [A-1A bombing computer](/items/a1a/).
+
+Figure 4 is a picture of the navigator/bombardiers station in the B-36 showing a very recognizable APA-59 (outlined in red) just beyond the bombsight periscope.

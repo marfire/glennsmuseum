@@ -1,0 +1,39 @@
+name: Royal Australian Navy Navigation Computer 
+---
+last_updated: 2010-07-26
+---
+priority: 5.5
+---
+tags: bombsights
+---
+figures:
+
+1 | nav_servo_device_front_e | 
+2 | nav_servo_device_1 | 
+3 | nav_servo_device_back | 
+4 | nav_servo_device_cu2 | 
+5 | nav_servo_device_cu1 | 
+6 | nav_servo_device_label | 
+---
+description:
+
+### Royal Australian Navy Navigation Computer 
+
+This is a navigation related computer and display apparently made for the Royal Australian Navy (see the label) by Huyck Sysyems (label on the side, not shown).
+It is filled with a variety of electro-mechanical components (gears, servos, electrical clutches, potentiometers, etc.)
+as well as some electronics (high-gain and low-gain amplifiers, quadrature rejectors, and a lot of resistors and capacitors).
+
+Of particular interest is a 19 position mechanical analog memory.
+The "memory set" knob rotates a carrier with two cams for each of the 19 positions.
+The selected cams each move an arm which moves an electrical resolver to provide the electrical value for the position.
+The back of the carrier and its cams and the sensing arm are shown in bottom left picture (there is a cam and arm on both sides if the carrier).
+What is not shown is a mechanism at the front of the carrier where two servos engage the two screws that adjust the length of the selected cam.
+This is how the memory values are set.
+
+Exactly what this device does is not clear. The NS and EW knobs on the right move the crosshairs on the display and set values via potentiometers.
+When not being set, the crosshairs are driven by the computing mechanism.
+Also, the display is presented in degrees (not NS-EW) and is labeled "wind".
+Based on my piloting experience, this seems too complicated (oe weird) just to be indicating wind direction.
+A center knob sets a variance, but variance of what to what?
+Again, when not being set, the variance display is being driven.
+Below this knob is a switch (not easily seen) labeled "wind" with positions "man" (surely manual) and "dop" (Doppler?).

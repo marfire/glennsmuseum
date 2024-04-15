@@ -1,0 +1,29 @@
+_model: category
+---
+name: Encryption
+---
+tag: encryption
+---
+description:
+
+Encryption devices are of great interest to me for several reasons.
+One reason is the importance of encryption in business, military, and personal security.
+This importance is, of course, growing with the proliferation of personal computing and communication devices.
+Another is that encryption is inherently a computationally intensive application perfectly suited for computers,
+my favorite subject.
+Also, my MS (from many many years ago) was in Mathematics, with a special interest in number theory&mdash;the basis of encryption.
+I have always tried to follow cryptographic developments, which have evolved significantly in my life.
+And, finally, encryption devices are technically "sweet": good engineering, technically complex, containing secrets,
+innovative, mixture of electronics and mechanicals, etc.
+
+A short detour to products: My interest in this field led to us adding robust hardware security features to the x86
+processors that my former company developed.
+Starting in 2003, all Centaur processors had extremely fast hardware-implemented random number generation,
+[AES encryption](http://en.wikipedia.org/wiki/Advanced_Encryption_Standard) and
+[secure hashing algorithm (SHA)](http://en.wikipedia.org/wiki/Secure_Hash_Algorithm).
+
+Unfortunately, encryption devices are hard to find, and when you can find one they are very expensive,
+so the museum's collection is pitifully small.
+So, if you're interested in cryptography, there are many very good sites that have extensive collections on line
+such as [here](http://www.cryptomuseum.com/), [here](http://www.ilord.com/index.html), and [here](http://www.jproc.ca/crypto/).
+However, the one major device that we do have (the Fialka), is extremely interesting.

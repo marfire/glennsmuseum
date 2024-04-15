@@ -1,0 +1,32 @@
+name: IBM System/360 Model 30 Console
+---
+last_updated: 2010-07-26
+---
+priority: 5.0
+---
+tags: ibm
+---
+figures:
+
+1 | s360_mod30_console | IBM Syetem/360 Model 30 Console
+2 | s360_mod30_console_cu1 | IBM Syetem/360 Model 30 Console
+3 | s360_mod30_console_cu2 | IBM Syetem/360 Model 30 Console
+---
+description:
+
+### IBM System/360 Model 30 Console
+
+The [IBM System/360](http://en.wikipedia.org/wiki/IBM_System/360) family was a very significant milestone in computer history.
+The Model 30 was the smallest member of the family that was fully instruction-set compatible with the other models.
+The hardware had an eight-bit datapath and the System/360 instruction set was completely microprogrammed along with an emulator for
+the popular [IBM 1401](http://en.wikipedia.org/wiki/IBM_1401).
+
+The museum has a control panel from a Model 30.
+Ours is interesting because it has controls not normally found on a Model 30 console.
+For example, in this [picture](http://www.ljw.me.uk/ibm360/), note the blank area to the immediate left
+of the emergency pull" power disconnect (the upper right red button).
+On our console, this area has controls for what sounds like "expanded storage".
+
+On a personal note, in 1967 and 1968 at IBM, I often used a Model 30 directly and was very familiar with the console.
+
+For more System/360, see our [IBM Air Traffic Control Console](/items/ibm_9020/).

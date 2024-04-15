@@ -1,0 +1,19 @@
+name: F-14 Fighter Air Data Computer
+---
+last_updated: 2010-07-26
+---
+priority: 2.5
+---
+tags: latermil
+---
+figures:
+
+1 | f14_adc_full | 
+2 | f14_adc_components | 
+3 | f14_adc_card1 | 
+4 | f14_adc_card2 | 
+---
+description:
+
+### F-14 Fighter Air Data Computer
+

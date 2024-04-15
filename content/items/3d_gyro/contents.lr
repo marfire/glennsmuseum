@@ -1,0 +1,29 @@
+name: 3D-Gyro Navigation Device
+---
+last_updated: 2010-07-26
+---
+priority: 3.0
+---
+tags: bombsights
+---
+figures:
+
+1 | gyro_side | 3D-Gyro Navigation Device
+2 | gyro_cu1 | 3D-Gyro Navigation Device
+3 | gyro_cu2 | 3D-Gyro Navigation Device
+4 | gyro_side_end | 3D-Gyro Navigation Device
+5 | gyro_end | 3D-Gyro Navigation Device
+---
+description:
+
+### 3D-Gyro Navigation Device
+
+This is yet another not-a-computer, but it is interesting.
+It's a compact 3D gyroscope obviously used in some inertial navigation system.
+Its cylindrical shape (about 9 inches in diameter and 16 inches in length) suggests that it came from a missile of some sort.
+It is heavy for its size, about 30 lbs.
+
+The block cylinders within the gimbals in the closeup pictures are the gyros.
+There are two pairs of them mounted at right angles to the other pair.
+
+There are no identifying labels that I can find, but the last service sticker was from 1961.

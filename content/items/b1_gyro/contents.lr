@@ -1,0 +1,29 @@
+name: B-1 Bombsight Stabilizer
+---
+last_updated: 2010-07-26
+---
+priority: 4.0
+---
+tags: bombsights
+---
+figures:
+
+1 | b1_whole | B-1 Bombsight Stabilizer
+2 | b1_top | B-1 Bombsight Stabilizer
+3 | b1_side | B-1 Bombsight Stabilizer
+4 | b1_lbl | B-1 Bombsight Stabilizer
+5 | b1_meter | B-1 Bombsight Stabilizer
+6 | b1_meter_lbl | B-1 Bombsight Stabilizer
+---
+description:
+
+### B-1 Bombsight Stabilizer
+
+This is the stabilizer component (i.e. gyros) from a "Horizontal Periscope Bombsight, Type B-1" made by Sperry.
+Note the resemblance to the name of the B-47 Y-4 "horizontal periscope bombsight" in the above topic.
+Perhaps this was the corresponding gyro unit for the B-47.
+Beyond this speculation, I can find references to the fact that the the USAF used a B-1 bombsight, but can't identify where it was used.
+Our device was last serviced in 1956, but the B-1 wasn't withdrawn for USAF procurement until 1974.
+
+I also have a "time-to-go" indicator instrument used with "B-1 Bombing Navigation Computer."
+This is more evidence that the B-1 bombsight existed.

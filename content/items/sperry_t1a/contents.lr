@@ -1,0 +1,39 @@
+name: Sperry T-1A Bombsight
+---
+last_updated: 2010-07-26
+---
+priority: 6.0
+---
+tags: bombsights
+---
+figures:
+
+1 | sperry_t1a_new_front | Sperry T-1A Bombsight
+2 | sperry_t1a_new_back | Sperry T-1A Bombsight
+3 | sperry_t1a_both | Sperry T-1A Bombsight
+4 | sperry_t1a_old_back | Sperry T-1A Bombsight
+5 | sperry_t1a_end_b | Sperry T-1A Bombsight
+6 | sperry_t1a_end_a | Sperry T-1A Bombsight
+7 | sperry_t1a_cover | Sperry T-1A Bombsight
+8 | sperry_t1a_drawing | Sperry T-1A Bombsight
+---
+description:
+
+### Sperry T-1A Bombsight
+
+This World War II bombsight was originally
+designed by the British (as the Mark XIV bombsight) and first entered
+service in 1942. It was also made by Sperry, who made improvements.
+It was used in the B-25 and deHavilland Mosquito bombers.
+There is a separate sighting head (with attached
+gyro), which I do not have, that communicated to this
+computing element.
+The attachment between the two devices was mechanical (flexible cables).
+The computation was performed mechanically (with much done pneumatically).
+A set of replaceable cams were provided which adjusted the unit for
+each type of plane. Shown on left is an old illustration of the complete
+system including the sighting head.
+
+We actually are fortunate to have two of these bombsights.
+One is more complete having its motor installed,
+while the other is missing its motor (the large hole) but is much cleaner and has its shock mount frame.

@@ -1,0 +1,22 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="google-site-verification" content="KSWRBxW7S53HqWp9T-O2chz_C5bLfBarQLc3g976H6o">
+<meta name="description" content="A collection of old IBM and military computers.">
+
+<link rel="stylesheet" media="screen" href="{{ '/static/museum.css'|url }}">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="alternate" type="application/atom+xml" href="/feed.atom">
+
+<title>{% block title %}{% endblock %} — Glenn's Computer Museum</title>
+
+<body>
+  <header>
+    {% include "header.html" %}
+  </header>
+  <div class="page">
+    {% block body %}{% endblock %}
+  </div>
+  <footer>
+    {% include "footer.html" %}
+  </footer>
+</body>

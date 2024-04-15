@@ -1,0 +1,30 @@
+name: Mark I Fire Control Computer Components
+---
+last_updated: 2010-07-26
+---
+priority: 6.0
+---
+tags: bombsights
+---
+figures:
+
+1 | powder_front | 
+2 | powder_end | 
+3 | powder_cam | 
+4 | mark_i_a | 
+5 | mark_i_b | 
+---
+description:
+
+### Mark I Fire Control Computer Components
+
+World War II gave rise to some amazing electromechanical computers used by the military.
+The most impressive was the Navy's [Mark I and Mark 1A fire control computers](http://en.wikipedia.org/wiki/Mark_I_Fire_Control_Computer)
+used on battleships.
+A great reference to this device and many similar electromechanical fire control devices 
+can be found in [this site](http://www.hnsa.org/doc/#guns).
+
+Figures 1-3 show a "Powder Fuze Ballistic Computer". 
+The device is labeled as being for a Mark I computer, and there is a clear picture of this component in the maintenance manual for the Mark I.
+
+Figures 4-5 show a second component that I think comes from a Mark I, but cannot prove it.

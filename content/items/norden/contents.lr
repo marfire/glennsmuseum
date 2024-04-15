@@ -1,0 +1,57 @@
+name: Norden Bombsight
+---
+last_updated: 2010-07-26
+---
+priority: 9.0
+---
+tags: bombsights
+---
+figures:
+
+1 | norden_full | Full Norden bombsight
+2 | norden_top | Top portion of Norden bombsight
+3 | nomencalture_and_operation | Norden bomsight diagram
+4 | norden_half_a | Half A of Norden rate end
+5 | norden_half_b | Half A of Norden rate end
+---
+description:
+
+### Norden Bombsight
+
+One of the most famous devices of WW II is the [Norden bombsight](http://en.wikipedia.org/wiki/Norden_bombsight),
+often mentioned along with radar and the atomic bomb as the most important technologies in winning the war.
+There is lots of good reference material on the web, including this great [site](http://www.twinbeech.com/norden_bombsight.htm)
+about bombsights.
+
+We are fortunate to have a complete Norden bombsight (with the optional X-1 reflex sight).
+A large part of the bombsight
+consists of two stabilization gyroscopes.
+The actual analog computing element (called the *rate end*) is the upper right portion.
+On the left is a diagram from the *Bombardiers
+Information File* (BIF), dated 1944 showing the major components.
+This very informative document is available from our site [here](/reference/bif.pdf).
+Below this diagram is is a closer view of the top portion.
+Using the knobs on the right side that connect
+into the rate end, the bombardier enters the altitude, airspeed, turn
+and drift rate of the plane, and the drag factor
+(“trail”) for the type of bomb to be dropped. Several other alignment controls
+must be set. The target is sighted through the telescope that looks
+down through the bombsight. 
+
+The rate end unit performs continuous
+calculations (as the sight angle to the target changes or new inputs
+are made) of when to release the bomb and the course the plane should fly.
+Near the end of the “bomb run”, the
+plane’s autopilot is connected to the bombsight and it actually steers the plane. The
+bomb release can be controlled directly by the computer.
+
+Fortunately, we also have a separate (and never
+used) rate end (the computer component). On the right it
+is taken apart so you can see the analog computing mechanism. Note the disk and
+wheel integrator assembly: the wheel is on a splined shaft just below the
+middle of the left half and the disk is sticking vertically
+out of the right half.
+
+In addition to the bombsight, the BIF, and the extra rate end,
+we have the maintenance manual that which contains a wealth of detail
+on how the bombsight works.

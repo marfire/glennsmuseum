@@ -1,0 +1,39 @@
+name: AN/UYK-44 Shipboard Computer
+---
+last_updated: 2010-07-26
+---
+priority: 6.0
+---
+tags: latermil
+---
+figures:
+
+1 | anyuk44_full | 
+2 | aegis_evolution | 
+3 | uyk44_rear | 
+4 | uyk44_proc_card | 
+5 | uyk44_io_card | 
+6 | uyk44_manual | 
+---
+description:
+
+### AN/UYK-44 Shipboard Computer
+
+The AN/UYK-44 computer is the standard 16-bit computer installed in U.S. Navy surface, submarine, and ground C4I platforms.
+The UYK-44 provides computing power for more than 40 different command, control, communications, and weapon systems.
+One of the most interesting applications of the UYK-44 is as the control computer of the Navy's AEGIS weapon system,
+which tracks and identifies targets, and controls the ship's defensive equipment.
+
+The UYK-44 was first developed in the 1980's and continued in use through the early 2000's.
+It is being phased out in favor of commercially available systems.
+Here is a chart from a Navy presentation showing the phasing of central Aegis processors. 
+
+While the UYK-44 has feeble computing power by our standards, it has massive I/O capability.
+Each pair of connectors on the back provides a MIL-STD-1397 point-to-point I/O bus running at 250K words/s.
+Our version has 16 such buses.
+
+However, our device is actually the commercial version (ES-44) of the military spec UYK-44.
+The implementation is different, but the ES-44 is functionally compatible (code, I/O bus, and instruction timing) with the military UYK-44 version.
+As can be seen in the UYK-44 picture on the front of its manual (which we have), the front control panel of the ES-44 is also the same as the UYK-44's.
+
+Our ES-44 works: it turns on and boots. At that point, however, it waits for the missing I/O: radar, missiles, etc.

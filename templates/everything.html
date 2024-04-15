@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% from "macros/item_macros.html" import render_item %}
+{% block title %}{{ this.name }}{% endblock %}
+{% block body %}
+      {% for item in site.query('/items').filter(F.tags.contains(this.tag)) %}
+          {{ render_item(item) }}
+          <hr>
+      {% endfor %}
+{% endblock %}

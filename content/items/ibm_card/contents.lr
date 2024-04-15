@@ -1,0 +1,126 @@
+name: IBM Card Equipment Programming Plugboards
+---
+last_updated: 2012-12-12
+---
+priority: 7.0
+---
+tags: ibm
+---
+figures:
+
+1 | box_cards | IBM Punched Cards
+2 | 407_program_paper | IBM 407 Program Example
+3 | ibm_402_bd | IBM 402 Control Board
+4 | ibm_402_bd_cu | IBM 402 Control Board
+5 | ibm_557_bds_4 | IBM 557 Control Board
+6 | 88_prog_bd | IBM 88 Control Board
+7 | ibm_533_bd | IBM 533 Control Board
+8 | ibm_602_bd_cu | IBM 602 Control Board
+9 | ibm_602_bd | IBM 602 Control Board
+10 | ibm_513_board | IBM 514 Control Board
+11 | ibm_6400_bd | IBM 6400 Control Board
+12 | ibm_063_board | IBM 063 Control Board
+13 | plugboard_new_402-403 | IBM 402-403 Control Board
+14 | plugboard_85 | IBM 85 Control Board
+15 | plugboard_407_full | IBM 407 Control Board
+16 | plugboard_407_cu | IBM 407 Control Board
+17 | plugboard_407_label | IBM 407 Control Board
+---
+description:
+
+### IBM Card Equipment Programming Plugboards
+
+I love IBM card equipment!
+
+Until the early '60s, most business applications were done on standalone card processing units (called by IBM [unit record equipment](http://en.wikipedia.org/wiki/Unit_record_equipment) by IBM) like the ones in our collection (shown following this topic).
+Even when computers started to be used, most programming was done on punched cards and all computers had punched card input and output.
+It wasn't until the middle seventies at IBM that we internally switched from card input to CRT terminals.
+Figure 1 is a box of 2000 fresh punched cards just waiting for our machines to use. (When I programmed on punch cards at IBM, our programs consisted of several trays of cards,
+each try containing several of these boxes.)
+
+Standalone card equipment ranged from simple devices like keypunches to primitive computer devices like the
+[IBM 602 Calculating Punch](http://www.columbia.edu/acis/history/602.html) which could do multiplication and division.
+All but the simplest card equipment could be "programmed" by wiring a control board like the ones shown here (often called a plugboard).
+Other than the fairly rare calculating punches, the most advanced card devices were accounting (also called tabulating) machines like the
+[IBM 407](http://en.wikipedia.org/wiki/IBM_407)
+which read cards and printed a report based on the card data using some counters and simple branching logic (as defined by the plugboard program).
+These tabulating machines were the computers of their day and were pervasively used in business.
+
+Accounting machines could also be used in non-obvious ways;
+in my first computer job in 1963 (application programming an IBM 7090 in Fortran and assembler),
+one of the scientists had programmed an IBM 407
+to do matrix multiplication.
+(Here's a technical paper on this [magic](/reference/407 p442-boyell.pdf). Figure 2 shows a page describing the programming.)
+Later in college (1965-67) the computer we used (an [IBM 1620](http://en.wikipedia.org/wiki/IBM_1620)) had only card input and card output.
+The output punched cards were hand carried from the computer to the 407 for listing.
+(The 407 was also used for many business tasks such as producing the student grade reports.)
+So, since every run I made ended up on the 407, I naturally learned how to program the 407 to do "cute", but useless things.
+We had lots of 407 boards, each preprogrammed with a particular application, similar to having multiple computer programs today.
+
+Here is my collection of plugboards for IBM card equipment.
+Figure 3 is the board for an [IBM 402](http://en.wikipedia.org/wiki/IBM_1620) accounting machine, an earlier version of the 407,
+and Figure 4 show how the plugs come out of the other side.
+
+When the plugboard is inserted into the machine, the plugs contact sockets that are hardwired to
+card read brushes, card punch controls, and internal counters and other logic.
+
+Figure 4 also shows the label of what this program supposedly did (payroll).
+Figure 5 shows our four [IBM 557 Alphabetic Interpreter](http://en.wikipedia.org/wiki/IBM_557) plugboards.
+Since we actually have a 557 in the museum, having multiple boards allows us to have different programs ready to us.
+On the left side are some programming "statements" (plug wires) ready for more programming.
+
+Figure 6 shows the plugboard for an [IBM 088 Collator](http://www.columbia.edu/acis/history/collator.html).
+Figure 7 shows the plugboard for an [IBM 533 Card Read Punch](http://www-03.ibm.com/ibm/history/exhibits/650/650_ph13.html).
+The 533 is particularly important as it was the input/output device for the [IBM 650 computer](http://en.wikipedia.org/wiki/IBM_650),
+commonly considered to be the first mass produced computer.
+The 650 was the first computer I ever saw in person (on a high-school field trip to the engineering lab at UC, Berkeley),
+and it had a great influence on my later choice to specialize in computers.
+
+Figure 9 shows the plugboard for an [IBM 602 Calculating Punch](http://www.columbia.edu/acis/history/602.html).
+Figure 8 is a closeup of this board showing some of the controls for multiplying and dividing.
+Figure 10 shows our three plugboards for our [IBM 514 Reproducing Punch](http://en.wikipedia.org/wiki/IBM_514).
+(Also shown are some programming plugs; these can be used on all the IBM boards.)
+Figure 12 show the control board for a rare device: the IBM 063 Card-Controlled Tape Punch.
+This device read cards and punched the corresponding values in *paper tape*.
+
+Finally, Figure 11 shows a particularly rare piece: the control plugboard for an [IBM 6400 Accounting Machine](http://en.wikipedia.org/wiki/IBM_6400_Series).
+This device is little know and I've never seen one (as opposed to all the other devices discussed in this section).
+
+Figure 13 shows a new variety of a 402-403 control board.
+Note that Figure 3 shows our other 402-403 board and this new one is subtly different.
+Figure 14 shows a newly arrived control board for an IBM 85 collator.
+The model 85 is an earlier collator version that the Model 88 whose control board is shown in Figure 6.
+Note that the 85 board is much different (simpler) than that for the 88.
+It seems that every different version of the same type of device (collator, interpreter, etc.) had a different control board.
+
+Finally, I now possess a IBM 407 control board. As described above, this is my favorite card devices and
+the epitome of card processing complexity.
+Figure 15 show the large (and heavy, about 25 pounds) 407 control board with an apparently working program.
+Figure 17 shows the label of the program which is "PAYROLL/CALC FICA/RETIREMENT/TAXABLE WAGES".
+This payroll application is a typical 407 function (our college 407 was used monthly for this very purpose).
+Figure 16 shows a close-up of some of the program's logic.
+The big orange and gray blob things are splitters and combiners of signals.
+
+I'm getting too many of these to photograph them, so here is
+my inventory of IBM card equipment control panels:
+
+- Type 46-47  [IBM 650 system](https://en.wikipedia.org/wiki/IBM_650)
+- Type 77  [IBM 77 Collator](https://www-03.ibm.com/ibm/history/exhibits/vintage/vintage_4506VV4004.html)
+- Type 85 (x2) IBM 85 Numeric Collator
+- Type 88 IBM 88 Numeric Collator
+- Type 88-2 IBM 88 Numeric Collator
+- Type 101  [IBM Statistical Sorting Machine](https://en.wikipedia.org/wiki/IBM_101)
+- Type 323 IBM 323 Card Punch, part of  [RAMAC 305 system](https://en.wikipedia.org/wiki/IBM_305_RAMAC)
+- Type 380 IBM 380 Console, part of  [RAMAC 305 system](https://en.wikipedia.org/wiki/IBM_305_RAMAC)
+- Type 402-403 (x4)
+- Type 407
+- Type 513
+- Type 514 (x2)
+- Type 513-514-523
+- Type 521-541
+- Type 548
+- Type 553
+- Type 557 (x2)
+- Type 604 (x2) [604 Electronic Card Calculating Punch](https://en.wikipedia.org/wiki/IBM_604)
+- Type 834-836 IBM 870 Document Writing System
+- Type 6400

@@ -1,0 +1,25 @@
+name: IBM 083 Sorter
+---
+last_updated: 2010-07-26
+---
+priority: 3.0
+---
+tags: ibm
+---
+figures:
+
+1 | ibm_083 | IBM 083 Sorter
+---
+description:
+
+### IBM 083 Sorter
+
+Here is the quintessential piece of card equipment: a sorter.
+Our IBM 083 is one of the last of a line of [IBM card sorters](http://en.wikipedia.org/wiki/IBM_80_series_Card_Sorters).
+Card sorters read one particular column as each card is passed through them
+and sends the card to the appropriate bin for what's punched in that column.
+Since there are 12 punch positions in each column, the read cards are
+routed one of 13 separate bins (12 plus one for errors).
+The 083 sorts at 1,000 cards a minute: over 16 per second.
+When it runs, it's very impressive; the cards move faster than the eye can follow.
+It also has a card counter for verifying the number of cards processed.

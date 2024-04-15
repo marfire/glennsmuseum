@@ -1,0 +1,38 @@
+name: Farrand Y-7 Bombsight
+---
+last_updated: 2012-12-10
+---
+priority: 5.0
+---
+tags: bombsights
+---
+figures:
+
+1 | y7_full | Farrand Y7 bombsight
+2 | y7_label | Farrand Y7 bombsight
+3 | y7_ctrls_1 | Farrand Y7 bombsight
+4 | y7_ctrls_2 | Farrand Y7 bombsight
+5 | y7_ctrls_3 | Farrand Y7 bombsight
+6 | y7_ctrls_4 | Farrand Y7 bombsight
+7 | y7_end | Farrand Y7 bombsight
+8 | y7_cables | Farrand Y7 bombsight
+---
+description:
+
+### Farrand Y-7 Bombsight
+
+This is another massive optical bombsight made by Farrand. 
+Figure 1 shows the whole 80 pound beast compared to a soda can.
+
+The only reference I can find to it is from the Air Force Systems Command, Historical Publication Series, 
+Development of Airborne Armament, 1910-1961: 
+
+> The vertical periscopes did not remain immune to the continuing drive for improvement.
+First, Farrand altered the Y-3 vertical periscope to utilize a shallower optical dome; 
+the revision was designated Y-5, and scheduled for installation in the B-52, 
+Next, the Armament Laboratory published a design exhibit for a 50-inch-long vertical periscope, designated the Y-7, 
+which incorporated the shallow dome of the Y-5. Both Farrand and Eastman Kodak were to manufacture the Y-7. 
+This was the "ultimate" vertical periscope for the "K-Series" system, 
+and was intended for installations in the B-52, the B-36, and the "large nose" B-45.
+In January 1952 Farrand contracted to design and construct two prototype Y-7's. One month earlier, 
+Farrand had delivered the first model of the Y-5 vertical scope to Boeing's Seattle plant for installation in the XB-52 aircraft.52

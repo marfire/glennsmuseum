@@ -1,0 +1,38 @@
+name: IBM 026, IBM 029 & IBM 010 Keypunches
+---
+last_updated: 2010-07-26
+---
+priority: 5.0
+---
+tags: ibm
+---
+figures:
+
+1 | ibm_026 | IBM 026 Keypunch
+2 | ibm_029 | IBM 029 Keypunch
+3 | ibm_10_keypunch | IBM 10 Keypunch
+---
+description:
+
+### IBM 026, IBM 029 & IBM 010 Keypunches
+
+A keypunch was the source of data and programming when I started in computing.
+As one typed on he keyboard, the characters were punched into the card (using a unique 12-hole code).
+After all your data or program lines were punched, the collected cards were read by
+standalone card devices (like a sorter) or by card readers attached to a computer.
+As late as the early 1970's at IBM, our programs consisted of thousands of cards held in metal trays
+(that fit into special file cabinets.)
+A program library was thus very similar to a real library, only with many trays of cards instead of books.
+
+Much more information about IBM keypunches, history, how they work, codes, and so forth, is found [here](http://en.wikipedia.org/wiki/Keypunch).
+
+Figure 1 shows our [IBM 026 Keypunch](http://www.columbia.edu/acis/history/026.html).
+The 026 was first introduced in 1949 replacing even older keypunch models.
+
+Figure 2 shows our more modern [IBM 029 Keypunch](http://www.columbia.edu/acis/history/029.html).
+The 029 was first introduced in 1964 and was the last version IBM made.
+
+And Figure 3 show a semi-portable (it weighs about 40 lbs.) IBM 010 Keypunch.
+This device allows the operator to punch one card column at a time (the keys trigger a solenoid punch).
+Interestingly, I can't find any references to a IBM model "10" keypunch.
+There is a manual 010 that is similar, but obviously of earlier origin.

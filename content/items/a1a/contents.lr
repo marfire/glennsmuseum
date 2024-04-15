@@ -1,0 +1,38 @@
+name: B-36 A-1A Bomb Release Computer
+---
+last_updated: 2010-07-26
+---
+priority: 4.5
+---
+tags: bombsights
+---
+figures:
+
+1 | a1a | B-36_A-1A_Bomb_Release_Computert
+2 | a1a_detail | B-36_A-1A_Bomb_Release_Computer
+3 | a1a_cu | B-36_A-1A_Bomb_Release_Computer
+4 | a1a_cu3 | B-36_A-1A_Bomb_Release_Computer
+5 | a1a_cu2 | B-36_A-1A_Bomb_Release_Computer
+6 | a1a_label | B-36_A-1A_Bomb_Release_Computer
+---
+description:
+
+### B-36 A-1A Bomb Release Computer
+
+This is a very rare item.
+It's part of the bombing navigation and control system for the
+[B-36 peacekeeper bomber](http://en.wikipedia.org/wiki/B-36).
+
+I can find references to the A-1A, but little detail. Here's one reference:
+
+> The bombing-navigation system incorporating the Y-3 periscope and the A-1A computer,
+dubbed the K-3A, came to be the standard system for B-36 aircraft and early production model B-52's.
+
+Another is:
+
+> During later modernization programs, the K-1 system was replaced by the much more reliable K-3A system.
+This included the Farrand Y-3 periscope bombsight, an A-1A improved bombing/navigation computer,
+and an improved version of the Western Electric AN/APS-23 radar.
+The Sperry A-1A bombing computer could be used between altitudes of 4700 and 50,000 feet, at grounds speeds between zero and 760 knots.
+
+Note that the Y-3 periscope sight is closely related to the Y-4 periscope sight [that we have](/items/y4_bombsight).
