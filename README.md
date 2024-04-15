@@ -1,3 +1,7 @@
+# Introduction
+This repository contains the source files used to create [glennsmuseum.com](https://www.glennsmuseum.com), an online museum of old computer stuff.
+The site is built using the [Lektor](https://www.getlektor.com/) static site generator.
+
 # Installation
 ## Windows
 - Download and install the latest [Windows version of Python](https://www.python.org/downloads/).
