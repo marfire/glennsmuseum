@@ -1,0 +1,7 @@
+_model: category
+---
+_template: everything.html
+---
+name: New Stuff
+---
+tag: new
