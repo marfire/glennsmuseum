@@ -2,10 +2,10 @@
     {{ "/pics/" + path + ".jpg" }}
 {% endmacro %}
 
-{% macro render_figure(figure_id, path, alt_text) %}
+{% macro render_figure(figure_id, path, caption_text, alt_text) %}
         <figure>
-        <a href="{{ make_path(path) }}"><img src="{{ make_path(path + "-small") }}" alt="{{ alt_text }}"></a>
-        <figcaption>{{ "Figure " + figure_id }}</figcaption>
+        <a href="{{ make_path(path) }}"><img src="{{ make_path(path + "-small") }}" alt=""></a>
+        <figcaption>{{ "Figure " + figure_id + ": " + caption_text }}</figcaption>
     </figure>
 {% endmacro %}
 
