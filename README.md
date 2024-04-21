@@ -17,7 +17,7 @@ The site is built using the [Lektor](https://www.getlektor.com/) static site gen
 
 # Actions
 ## Previewing
-- From the project directory run `lektor server`.
+- From the project directory run [`lektor server`](https://www.getlektor.com/docs/cli/server/).
   - This will automatically run an incremental build.
     - Whenever a source file is saved to the filesystem it will automatically be built and available for viewing locally.
   - View the website in the browser at <http://127.0.0.1:5000/>.
@@ -29,13 +29,14 @@ The site is built using the [Lektor](https://www.getlektor.com/) static site gen
 - The source files can also be edited in the browser by clicking the edit icon in the upper right corner  of the preview page.
 
 ## Deploying
-- From the project directory run `lektor build`.
+- From the project directory run [`lektor build`](https://www.getlektor.com/docs/cli/build/).
   - This only builds the files that have changed.
-  - To force a clean build, first run `lektor clean`.
+  - To force a clean build, first run [`lektor clean`](https://www.getlektor.com/docs/cli/clean/).
     - A clean build will be quite slow due to the size of the site, and will also cause the next deploy to be a full one (which is slow).
   - The build directory is a sibling of the project directory called `build`.
-- From the project directory run `lektor deploy --username USERNAME --password PASSWORD`.
-  - Uses FTP.
+- From the project directory run [`lektor deploy --username USERNAME --password PASSWORD`](https://www.getlektor.com/docs/cli/deploy/).
+  - Alternatively, the credentials can be stored in the `LEKTOR_DEPLOY_USERNAME` and `LEKTOR_DEPLOY_PASSWORD` environment variables.
+  - Uses [FTP](https://www.getlektor.com/docs/deployment/ftp/).
     - Since FTP is stateless, Lektor uses a manifest file to keep track of changes to avoid having to transfer all the files
 all the time. One consequence is that the files shouldn't be changed outside of
 `lektor deploy` (for example, with a separate FTP client).
