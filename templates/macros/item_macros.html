@@ -1,6 +1,4 @@
-{% macro make_path(path) %}
-    {{ "/pics/" + path + ".jpg" }}
-{% endmacro %}
+{% macro make_path(path) %}{{ ("/pics/" + path + ".jpg")|url }}{% endmacro %}
 
 {% macro render_figure(figure_id, path, caption_text, alt_text) %}
         <figure>

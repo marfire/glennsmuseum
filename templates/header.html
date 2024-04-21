@@ -1,7 +1,7 @@
 <table>
   <tr>
       <td class="left"><img width="204" height="87" src="{{ '/static/logo.jpg'|asseturl }}" alt="Centaur Technology Logo"/></td>
-      <td class="middle"><a href="/"><h1 style="margin-left: 5%; margin-right: 10%">Glenn&rsquo;s Computer Museum</h1></a></td>
+      <td class="middle"><a href="{{ '/'|url }}"><h1 style="margin-left: 5%; margin-right: 10%">Glenn&rsquo;s Computer Museum</h1></a></td>
       <td class="right">
         <form id="search" action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
             <input name="sitesearch" type="hidden" value="www.glennsmuseum.com">
@@ -14,26 +14,26 @@
 
 <table class="main_nav">
   <tr >
-    <td class="nav_entry"><a href="/">Home</a></td>
-    <td class="nav_entry"><a href="/new/">New</a></td>
-    <td class="nav_entry"><a href="/bombsights/">Old Military</a></td>
-    <td class="nav_entry"><a href="/latermil/">Later Military</a></td>
-    <td class="nav_entry"><a href="/analog/">Analog Stuff</a></td>
-    <td class="nav_entry"><a href="/ibm/">IBM Stuff<a></td>
-    <td class="nav_entry"><a href="/items/s3m6/">S/3 Mod 6</a></td>
-    <td class="nav_entry"><a href="/items/s32/">S/32</a></td>
-    <td class="nav_entry"><a href="/components/">Components</a></td>
-    <td class="nav_entry"><a href="/encryption/">Encryption</a></td>
-    <td class="nav_entry"><a href="/misc/">Misc</a></td>
-    <td class="nav_entry"><a href="/items/b61/">B61</a></td>
+    <td class="nav_entry"><a href="{{ '/'|url }}">Home</a></td>
+    <td class="nav_entry"><a href="{{ '/new/'|url }}">New</a></td>
+    <td class="nav_entry"><a href="{{ '/bombsights/'|url }}">Old Military</a></td>
+    <td class="nav_entry"><a href="{{ '/latermil/'|url }}">Later Military</a></td>
+    <td class="nav_entry"><a href="{{ '/analog/'|url }}">Analog Stuff</a></td>
+    <td class="nav_entry"><a href="{{ '/ibm/'|url }}">IBM Stuff<a></td>
+    <td class="nav_entry"><a href="{{ '/items/s3m6/'|url }}">S/3 Mod 6</a></td>
+    <td class="nav_entry"><a href="{{ '/items/s32/'|url }}">S/32</a></td>
+    <td class="nav_entry"><a href="{{ '/components/'|url }}">Components</a></td>
+    <td class="nav_entry"><a href="{{ '/encryption/'|url }}">Encryption</a></td>
+    <td class="nav_entry"><a href="{{ '/misc/'|url }}">Misc</a></td>
+    <td class="nav_entry"><a href="{{ '/items/b61/'|url }}">B61</a></td>
   </tr>
 </table>
 
 <div>
 <p class="align_right">
- <em><a href="/change-log/">change log</a></em> |
+ <em><a href="{{ '/change-log/'|url }}">change log</a></em> |
  <em><a href="mailto:glennh@cincocerros.com">contact me</a></em> |
- <a href="/feed.atom"><img id="feed_icon" src="/static/feed-icon-28x28.png" alt="Subscribe to RSS feed"></a>
+ <a href="{{ '/feed.atom'|url }}"><img id="feed_icon" src="{{ '/static/feed-icon-28x28.png'|asseturl }}" alt="Subscribe to RSS feed"></a>
 </p>
 </div>
 <div style="clear: both;"></div>
