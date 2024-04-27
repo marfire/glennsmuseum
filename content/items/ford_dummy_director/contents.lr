@@ -1,0 +1,30 @@
+name: Ford Mark 1 Dummy Director
+---
+last_updated: 2024-04-27
+---
+priority: 8.1
+---
+tags: new
+---
+figures:
+
+1 |ford_mk1_dummy_dir_lbl   | Ford Mark I Dummy Director Label
+2 |ford_mk1_dummy_dir_box  | Ford Mark I Dummy Director Box
+3 |ford_mk1_dummy_dir_cu2   | Ford Mark I Dummy Director Open Box
+4 |ford_mk1_dummy_dir_cu1   | Ford Mark I Dummy Director Panel
+5 |ford_mk1_dummy_dir_cu6   | Ford Mark I Dummy Director Closeup
+6 |ford_mk1_dummy_dir_cu5  | Ford Mark I Dummy Director Top
+7 |ford_mk1_dummy_dir_door   | Ford Mark I Dummy Director Closeup
+8 |ford_mk1_dummy_dir_cu4 | Ford Mark I Dummy Director Closeup
+9 |ford_mk1_dummy_dir_cu3   | Ford Mark I Dummy Director Closeup
+10 |ford_mk1_dummy_dir_top  | Ford Mark I Dummy Director Top
+11 |ford_mk1_dummy_dir_cu7  | Ford Mark I Dummy Direct Closeupr
+12 |ford_mk1_dummy_dir_panel  | Ford Mark I Dummy Direct 
+13 |ford_mk1_dummy_dir_open  | Ford Mark I Dummy Direct Open Box
+---
+description:
+
+### Ford Mark 1 Dummy Director
+
+
+
