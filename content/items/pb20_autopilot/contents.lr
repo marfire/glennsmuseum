@@ -20,7 +20,7 @@ description:
 
 ### Bendix PB-20 (Boeing 707 Autopilot)
 
-This is the autopilot used on the first major commercial jet aircraft: the Boeing 707. It was also used on the many models and derivatives of the 707 (such as the Boeing 720) and the many derivative military versions: the Boeing E-3, C-137, KC-135, the Northrup Grumman E-6 and E-8, and others.  A derivative of the PB-20 was also used in the first major English-developed jet passenger plane, the Vicors VC-10 (https://vc10.net/Technical/Autoland_2.html). 
+This is the autopilot used on the first major commercial jet aircraft: the Boeing 707. It was also used on the many models and derivatives of the 707 (such as the Boeing 720) and the many derivative military versions: the Boeing E-3, C-137, KC-135, the Northrup Grumman E-6 and E-8, and others.  A derivative of the PB-20 was also used in the first major English-developed jet passenger plane, the [Vicors VC-10](https://vc10.net/Technical/Autoland_2.html). 
 
 As is generally true with most aviation electronics, once qualified,  they live a long time. Our unit, as shown in Figure 2, was last repaired in 10/1990, almost 32 years since the design first flew commercially. Its serial number of 9101 also hints at long life.
 
@@ -32,4 +32,4 @@ The bottom view (Figure 5) is a rats-nest of wiring, with the external I/O attac
 
 I have flown on a 707 and if I could have seen the ad-hoc physical structure and wiring of  its PB-20, I might have had second thoughts. It's hard to imagine that the primitive technology and assembly style shown in Figures 3, 4, and 5 could be "life-critical."
 
-This document (chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://apps.dtic.mil/sti/pdfs/AD0423916.pdf) discusses some details of the PB-20 design (called "PB20" in this doc).
+This [document](https://apps.dtic.mil/sti/pdfs/AD0423916.pdf) discusses some details of the PB-20 design (called "PB20" in this doc).
